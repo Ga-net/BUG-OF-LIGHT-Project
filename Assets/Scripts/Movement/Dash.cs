@@ -69,7 +69,7 @@ public class Dash : MonoBehaviour
                 DashAmount = 0;
             if((FOVValuSaver*FOVValu) > Cam.fieldOfView && (Mathf.Abs(Input.GetAxis("Horizontal")) >0.1f || Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f))
             Cam.fieldOfView += FOVValu;
-            Debug.Log("IM dashing");
+            //Debug.Log("IM dashing");
         }
         else 
         {
@@ -77,7 +77,7 @@ public class Dash : MonoBehaviour
             InDashmod = false;
             if(Cam.fieldOfView > FOVValuSaver)
             Cam.fieldOfView -= FOVValu;
-            Debug.Log("IM Not dashing");
+            //Debug.Log("IM Not dashing");
         }
 
     }

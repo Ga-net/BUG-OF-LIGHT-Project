@@ -84,7 +84,7 @@ public class Egg : MonoBehaviour
             if (IncubateTimer < 0)
                 IncubateTimer = 0;
             //Debug.Log(IncubateTimer);
-            Debug.Log(CorentPlace);
+            //Debug.Log(CorentPlace);
         }
     }
 

@@ -46,7 +46,7 @@ MonoBehaviour:
   IsYellow: 0
   EnergyAmount: 100
   EnergyRedeucingAmount: 0.411
-  IncubateTimer: 60
+  IncubateTimer: 300
   BOLPrefab: {fileID: 4099524262828052127, guid: d66f6b0c58c7a8b45be06f5dc2ae241f,
     type: 3}
   EGGFractions: {fileID: 113560353092575654, guid: 2344cc33be59cad448604846d73069b7,
@@ -54,7 +54,6 @@ MonoBehaviour:
   isTaking: 0
   BlueLap: {fileID: 0}
   YellowLap: {fileID: 0}
-  BreakVelocity: 2
 --- !u!1001 &805810811270085672
 PrefabInstance:
   m_ObjectHideFlags: 0

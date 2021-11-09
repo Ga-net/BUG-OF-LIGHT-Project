@@ -72,7 +72,7 @@ public class DuboleJump : MonoBehaviour
             //if (!TooHigh)
             if (JumpCount >= 2)
                 JumpCount = 0;
-            Debug.Log("the timer Move");
+            //Debug.Log("the timer Move");
         }
     }
 
@@ -81,7 +81,7 @@ public class DuboleJump : MonoBehaviour
     {
         if(other.CompareTag("Player")/* || other.CompareTag("Dubole Jump")*/)
         {
-            Debug.Log("not Now");
+            //Debug.Log("not Now");
         }
         else
         {
@@ -94,7 +94,7 @@ public class DuboleJump : MonoBehaviour
         {
             JumpCount = 0;
             TooHigh = false;
-            Debug.Log("I hit Somthing Except Palayer and collider");
+            //Debug.Log("I hit Somthing Except Palayer and collider");
         }
     }
 
