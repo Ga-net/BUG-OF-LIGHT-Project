@@ -19,14 +19,27 @@ public class VacuumTip : MonoBehaviour
     public float ThrowingForce;
     public Vector3 ThrowingPoint;
     public float ThrowingRadios;
+    public CharacterController PlayerVelocity;
 
+    //Sounds Section
+    public GameObject ThroingSound;
+    public GameObject TakingSound;
+    public GameObject ErrorSound;
 
-        //تم تعويضه بمتغير القائمة
-    //int NumOFBlueEggInTube;
-    //int NumOFYellowEggInTube;
-    //int NumOFFoodInTube;
+    void PlayThrowingSound()
+    {
+        Instantiate(ThroingSound, ThroingPos);
+    }
 
+    void PlayTakingSound()
+    {
+        Instantiate(TakingSound, transform);
+    }
 
+    void PlayErrorSound()
+    {
+        Instantiate(ErrorSound, transform);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -37,6 +50,7 @@ public class VacuumTip : MonoBehaviour
             other.transform.localScale /= 2;
             other.transform.position = BlueEggSlots[BlueEggs.Count].position;
             BlueEggs.Add(other.gameObject);
+            PlayTakingSound();
         }
 
         //taking the Yellow Eggs
@@ -46,6 +60,7 @@ public class VacuumTip : MonoBehaviour
             other.transform.localScale /= 2;
             other.transform.position = YellowEggSlots[YellowEggs.Count].position;
             YellowEggs.Add(other.gameObject);
+            PlayTakingSound();
         }
 
 
@@ -57,6 +72,7 @@ public class VacuumTip : MonoBehaviour
             other.transform.localScale /= 2;
             other.transform.position = FoodSlots[Food.Count].position;
             Food.Add(other.gameObject);
+            PlayTakingSound();
         }
 
     }
@@ -65,27 +81,30 @@ public class VacuumTip : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         //to throw the BLue Egges When the tube Is Full
-        if (other.CompareTag("Blue EGG") && BlueEggs.Count >= TubeMax && Input.GetButton("Fire1"))
+        if (other.CompareTag("Blue EGG") && BlueEggs.Count > TubeMax && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
+            PlayErrorSound();
         }
 
 
         //to throw the Yellow Egges When the tube Is Full
-        if (other.CompareTag("Yellow EGG") && YellowEggs.Count >= TubeMax && Input.GetButton("Fire1"))
+        if (other.CompareTag("Yellow EGG") && YellowEggs.Count > TubeMax && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
+            PlayErrorSound();
         }
 
 
 
         //to throw the Food When the tube Is Full
-        if (other.CompareTag("Food") && Food.Count >= TubeMax && Input.GetButton("Fire1"))
+        if (other.CompareTag("Food") && Food.Count > TubeMax && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
+            PlayErrorSound();
         }
 
 
@@ -95,6 +114,10 @@ public class VacuumTip : MonoBehaviour
         {
             //نادي دالة رمي الأشياء -
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
+            int Redusnois;
+            Redusnois = Random.Range(0, 100);
+            if(Redusnois < 5)
+                PlayErrorSound();
         }
     }
 
@@ -116,10 +139,11 @@ public class VacuumTip : MonoBehaviour
         {
             BlueEggs[BlueEggs.Count - 1].transform.position = ThroingPos.position;
             BlueEggs[BlueEggs.Count - 1].transform.rotation = Camera.main.transform.rotation;
-            BlueEggs[BlueEggs.Count - 1].GetComponent<Rigidbody>().velocity = BlueEggs[BlueEggs.Count - 1].transform.forward * ThrowingForce;
+            BlueEggs[BlueEggs.Count - 1].GetComponent<Rigidbody>().velocity = (BlueEggs[BlueEggs.Count - 1].transform.forward + (PlayerVelocity.velocity *0.05f)) * ThrowingForce;
             BlueEggs[BlueEggs.Count - 1].GetComponent<Rigidbody>().isKinematic = false;
             BlueEggs[BlueEggs.Count - 1].transform.localScale *= 2;
             BlueEggs.RemoveAt(BlueEggs.Count - 1);
+            PlayThrowingSound();
         }
 
 
@@ -130,10 +154,11 @@ public class VacuumTip : MonoBehaviour
         {
             YellowEggs[YellowEggs.Count - 1].transform.position = ThroingPos.position;
             YellowEggs[YellowEggs.Count - 1].transform.rotation = Camera.main.transform.rotation;
-            YellowEggs[YellowEggs.Count - 1].GetComponent<Rigidbody>().velocity = YellowEggs[YellowEggs.Count - 1].transform.forward * ThrowingForce;
+            YellowEggs[YellowEggs.Count - 1].GetComponent<Rigidbody>().velocity = (YellowEggs[YellowEggs.Count - 1].transform.forward + (PlayerVelocity.velocity * 0.05f)) *ThrowingForce;
             YellowEggs[YellowEggs.Count - 1].GetComponent<Rigidbody>().isKinematic = false;
             YellowEggs[YellowEggs.Count - 1].transform.localScale *= 2;
             YellowEggs.RemoveAt(YellowEggs.Count - 1);
+            PlayThrowingSound();
         }
 
 
@@ -144,10 +169,11 @@ public class VacuumTip : MonoBehaviour
         {
             Food[Food.Count - 1].transform.position = ThroingPos.position;
             Food[Food.Count - 1].transform.rotation = Camera.main.transform.rotation;
-            Food[Food.Count - 1].GetComponent<Rigidbody>().velocity = Food[Food.Count - 1].transform.forward * ThrowingForce;
+            Food[Food.Count - 1].GetComponent<Rigidbody>().velocity = (Food[Food.Count - 1].transform.forward + (PlayerVelocity.velocity * 0.09f)) *ThrowingForce;
             Food[Food.Count - 1].GetComponent<Rigidbody>().isKinematic = false;
             Food[Food.Count - 1].transform.localScale *= 2;
             Food.RemoveAt(Food.Count - 1);
+            PlayThrowingSound();
         }
 
     }

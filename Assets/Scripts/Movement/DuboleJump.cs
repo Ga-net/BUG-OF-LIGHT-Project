@@ -42,7 +42,7 @@ public class DuboleJump : MonoBehaviour
         if(JumpCount == 2)
         {
             BringORAway(true);
-            Debug.Log("Second JUmp");
+            //Debug.Log("Second JUmp");
         }
     }
 

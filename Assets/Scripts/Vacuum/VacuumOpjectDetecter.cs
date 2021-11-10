@@ -41,6 +41,28 @@ public class VacuumOpjectDetecter : MonoBehaviour
 
 
 
+    //sounds
+
+    public AudioClip VacuumSound;
+    public AudioClip VacuumFadeoutSound;
+
+    private void Update()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            gameObject.GetComponent<AudioSource>().clip = VacuumSound;
+            gameObject.GetComponent<AudioSource>().Play();
+            gameObject.GetComponent<AudioSource>().loop = true;
+        }
+        if (Input.GetButtonUp("Fire1"))
+        {
+            gameObject.GetComponent<AudioSource>().clip = VacuumFadeoutSound;
+            gameObject.GetComponent<AudioSource>().Play();
+            gameObject.GetComponent<AudioSource>().loop = false;
+        }
+    }
+
+
     void BringIt (Transform OBJToBring,Rigidbody OBJRig)
     {
         OBJRig.AddExplosionForce(Random.Range(ExplosionForcMin, ExplosionForcMax), OBJToBring.position + new Vector3(Random.Range(FPMi.x,FPMa.x), Random.Range(FPMi.y, FPMa.y), Random.Range(FPMi.z, FPMa.z)), Random.Range(ExplostionRadiosMin, ExplostionRadiosMax));
