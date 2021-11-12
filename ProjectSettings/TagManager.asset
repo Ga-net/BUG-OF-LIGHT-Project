@@ -12,6 +12,7 @@ TagManager:
   - Fire
   - Dubole Jump
   - Food
+  - Frictions
   layers:
   - Default
   - TransparentFX

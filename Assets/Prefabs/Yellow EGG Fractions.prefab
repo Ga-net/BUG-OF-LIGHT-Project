@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1905450038882508359}
   m_Layer: 0
   m_Name: Fraction _cell.046
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 1905450038964691142}
   m_Layer: 0
   m_Name: Fraction _cell.003
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 1905450038979895542}
   m_Layer: 0
   m_Name: Fraction _cell.045
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 1905450039008354897}
   m_Layer: 0
   m_Name: Fraction _cell.042
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 1905450039016344784}
   m_Layer: 0
   m_Name: Fraction _cell.018
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 1905450039025267074}
   m_Layer: 0
   m_Name: Fraction _cell.023
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 1905450039091831300}
   m_Layer: 0
   m_Name: Fraction _cell.020
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 1905450039141213432}
   m_Layer: 0
   m_Name: Fraction _cell.047
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 1905450039175453837}
   m_Layer: 0
   m_Name: Fraction _cell.030
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 1905450039195250909}
   m_Layer: 0
   m_Name: Fraction _cell.005
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1315,7 +1315,7 @@ GameObject:
   - component: {fileID: 1905450039205801139}
   m_Layer: 0
   m_Name: Fraction _cell.011
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1426,7 +1426,7 @@ GameObject:
   - component: {fileID: 1905450039398265328}
   m_Layer: 0
   m_Name: Fraction _cell.029
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1537,7 +1537,7 @@ GameObject:
   - component: {fileID: 1905450039401172215}
   m_Layer: 0
   m_Name: Fraction _cell.044
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1648,7 +1648,7 @@ GameObject:
   - component: {fileID: 1905450039510390641}
   m_Layer: 0
   m_Name: Fraction _cell.007
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1759,7 +1759,7 @@ GameObject:
   - component: {fileID: 1905450039628250802}
   m_Layer: 0
   m_Name: Fraction _cell.028
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1870,7 +1870,7 @@ GameObject:
   - component: {fileID: 1905450039667887528}
   m_Layer: 0
   m_Name: Fraction _cell.022
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1981,7 +1981,7 @@ GameObject:
   - component: {fileID: 1905450039745649508}
   m_Layer: 0
   m_Name: Fraction _cell.008
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2092,7 +2092,7 @@ GameObject:
   - component: {fileID: 1905450039761367617}
   m_Layer: 0
   m_Name: Fraction _cell.035
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2203,7 +2203,7 @@ GameObject:
   - component: {fileID: 1905450039791801694}
   m_Layer: 0
   m_Name: Fraction _cell.031
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2314,7 +2314,7 @@ GameObject:
   - component: {fileID: 1905450039809068149}
   m_Layer: 0
   m_Name: Fraction _cell.013
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2425,7 +2425,7 @@ GameObject:
   - component: {fileID: 1905450039861298028}
   m_Layer: 0
   m_Name: Fraction _cell.026
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2536,7 +2536,7 @@ GameObject:
   - component: {fileID: 1905450039870762664}
   m_Layer: 0
   m_Name: Fraction _cell.034
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2647,7 +2647,7 @@ GameObject:
   - component: {fileID: 1905450039903276338}
   m_Layer: 0
   m_Name: Fraction _cell.024
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2758,7 +2758,7 @@ GameObject:
   - component: {fileID: 1905450039939068471}
   m_Layer: 0
   m_Name: Fraction _cell.002
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2869,7 +2869,7 @@ GameObject:
   - component: {fileID: 1905450039955936149}
   m_Layer: 0
   m_Name: Fraction _cell.027
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2980,7 +2980,7 @@ GameObject:
   - component: {fileID: 1905450039960820628}
   m_Layer: 0
   m_Name: Fraction _cell.015
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3091,7 +3091,7 @@ GameObject:
   - component: {fileID: 1905450039988567506}
   m_Layer: 0
   m_Name: Fraction _cell.040
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3202,7 +3202,7 @@ GameObject:
   - component: {fileID: 1905450040097096305}
   m_Layer: 0
   m_Name: Fraction _cell.033
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3313,7 +3313,7 @@ GameObject:
   - component: {fileID: 1905450040129150143}
   m_Layer: 0
   m_Name: Fraction _cell.001
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3424,7 +3424,7 @@ GameObject:
   - component: {fileID: 1905450040170272305}
   m_Layer: 0
   m_Name: Fraction _cell.012
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3535,7 +3535,7 @@ GameObject:
   - component: {fileID: 1905450040185804902}
   m_Layer: 0
   m_Name: Fraction _cell.041
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3646,7 +3646,7 @@ GameObject:
   - component: {fileID: 1905450040186604451}
   m_Layer: 0
   m_Name: Fraction _cell.017
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3757,7 +3757,7 @@ GameObject:
   - component: {fileID: 1905450040348138195}
   m_Layer: 0
   m_Name: Fraction _cell.010
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3868,7 +3868,7 @@ GameObject:
   - component: {fileID: 1905450040365234114}
   m_Layer: 0
   m_Name: Fraction _cell.025
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3979,7 +3979,7 @@ GameObject:
   - component: {fileID: 1905450040407030240}
   m_Layer: 0
   m_Name: Fraction _cell.043
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4090,7 +4090,7 @@ GameObject:
   - component: {fileID: 1905450040451197793}
   m_Layer: 0
   m_Name: Fraction _cell.036
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4201,7 +4201,7 @@ GameObject:
   - component: {fileID: 1905450040483760796}
   m_Layer: 0
   m_Name: Fraction _cell
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4312,7 +4312,7 @@ GameObject:
   - component: {fileID: 1905450040520876927}
   m_Layer: 0
   m_Name: Fraction _cell.021
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4423,7 +4423,7 @@ GameObject:
   - component: {fileID: 1905450040531344486}
   m_Layer: 0
   m_Name: Fraction _cell.016
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4534,7 +4534,7 @@ GameObject:
   - component: {fileID: 1905450040541752190}
   m_Layer: 0
   m_Name: Fraction _cell.039
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4645,7 +4645,7 @@ GameObject:
   - component: {fileID: 1905450040560546268}
   m_Layer: 0
   m_Name: Fraction _cell.038
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4756,7 +4756,7 @@ GameObject:
   - component: {fileID: 1905450040592377640}
   m_Layer: 0
   m_Name: Fraction _cell.032
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4867,7 +4867,7 @@ GameObject:
   - component: {fileID: 1905450040643027407}
   m_Layer: 0
   m_Name: Fraction _cell.014
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4978,7 +4978,7 @@ GameObject:
   - component: {fileID: 1905450040707719448}
   m_Layer: 0
   m_Name: Fraction _cell.009
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5089,7 +5089,7 @@ GameObject:
   - component: {fileID: 1905450040779015862}
   m_Layer: 0
   m_Name: Fraction _cell.037
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5200,7 +5200,7 @@ GameObject:
   - component: {fileID: 1905450040794441868}
   m_Layer: 0
   m_Name: Fraction _cell.019
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5311,7 +5311,7 @@ GameObject:
   - component: {fileID: 1905450040892236233}
   m_Layer: 0
   m_Name: Fraction _cell.049
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5422,7 +5422,7 @@ GameObject:
   - component: {fileID: 1905450040911953032}
   m_Layer: 0
   m_Name: Fraction _cell.004
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5533,7 +5533,7 @@ GameObject:
   - component: {fileID: 1905450040951046430}
   m_Layer: 0
   m_Name: Fraction _cell.006
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5644,7 +5644,7 @@ GameObject:
   - component: {fileID: 1905450040955368555}
   m_Layer: 0
   m_Name: Fraction _cell.048
-  m_TagString: Untagged
+  m_TagString: Frictions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

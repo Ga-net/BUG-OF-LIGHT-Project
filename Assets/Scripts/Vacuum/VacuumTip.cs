@@ -43,6 +43,15 @@ public class VacuumTip : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
+
+        
+
+    }
+
+
+    private void OnTriggerStay(Collider other)
+    {
         //taking the blue Eggs
         if (other.CompareTag("Blue EGG") && BlueEggs.Count < TubeMax && Input.GetButton("Fire1"))
         {
@@ -75,17 +84,16 @@ public class VacuumTip : MonoBehaviour
             PlayTakingSound();
         }
 
-    }
 
 
-    private void OnTriggerStay(Collider other)
-    {
+
+
         //to throw the BLue Egges When the tube Is Full
         if (other.CompareTag("Blue EGG") && BlueEggs.Count > TubeMax && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
+            //PlayErrorSound();
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
-            PlayErrorSound();
         }
 
 
@@ -93,8 +101,8 @@ public class VacuumTip : MonoBehaviour
         if (other.CompareTag("Yellow EGG") && YellowEggs.Count > TubeMax && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
+            //PlayErrorSound();
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
-            PlayErrorSound();
         }
 
 
@@ -103,8 +111,8 @@ public class VacuumTip : MonoBehaviour
         if (other.CompareTag("Food") && Food.Count > TubeMax && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
+            //PlayErrorSound();
             ThrowIt(other.transform, other.GetComponent<Rigidbody>());
-            PlayErrorSound();
         }
 
 
@@ -113,11 +121,17 @@ public class VacuumTip : MonoBehaviour
         if (other.GetComponent<Rigidbody>() != null && other.GetComponent<Rigidbody>().isKinematic == false && Input.GetButton("Fire1"))
         {
             //نادي دالة رمي الأشياء -
-            ThrowIt(other.transform, other.GetComponent<Rigidbody>());
-            int Redusnois;
-            Redusnois = Random.Range(0, 100);
-            if(Redusnois < 5)
+            if(other.CompareTag("Frictions"))
+            {
+                int Redusnois;
+                Redusnois = Random.Range(0, 100);
+                if (Redusnois < 1)
+                    PlayErrorSound();
+            }
+
+            if (!other.CompareTag("Frictions"))
                 PlayErrorSound();
+            ThrowIt(other.transform, other.GetComponent<Rigidbody>());
         }
     }
 
