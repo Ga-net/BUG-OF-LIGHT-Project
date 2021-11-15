@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 03b2f1f094dbbd847a4af25977af93de
+guid: 9aeb4f35bdd931842a4bf127b6af0a2c
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -1096239643251361281
+    second: Armature|Pumping Animation
   externalObjects: {}
   materials:
     materialImportMode: 1

@@ -21,7 +21,9 @@ public class LAP : MonoBehaviour
             if (other.GetComponent<Egg>() != null)
             {
                 if (!(other.GetComponent<Egg>().isTaking))
+                {
                     other.GetComponent<Egg>().TakeEnergy(EggEnergyReducingAmont, true);
+                }
             }
         }
 
@@ -31,7 +33,9 @@ public class LAP : MonoBehaviour
             if (other.GetComponent<Egg>() != null)
             {
                 if (!(other.GetComponent<Egg>().isTaking))
+                {
                     other.GetComponent<Egg>().TakeEnergy(EggEnergyReducingAmont, true);
+                }
             }
         }
 
@@ -86,11 +90,11 @@ public class LAP : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(EnergyTubeCookTime);
-            if(LapEnergyAmount >= EnergyTubePrice)
+            if(LapEnergyAmount >= EnergyTubeIncreac)
             {
                 CorentTube += EnergyTubeIncreac;
                 LapEnergyAmount -= EnergyTubeIncreac;
-                Debug.Log("Timer Is Working");
+                //Debug.Log("Timer Is Working");
 
             }
         }

@@ -37,6 +37,8 @@ public class Egg : MonoBehaviour
         CorentPlace = EggPlace.inVoid;
         StartCoroutine(ReducEnergy());
         StartCoroutine(IncubatesTime());
+        KnowTheLaps();
+        StartCoroutine(TakingEnergyTimer());
     }
 
     void Update()
@@ -49,6 +51,8 @@ public class Egg : MonoBehaviour
         if ((IncubateTimer <= 0 || EnergyAmount <= 0) && IsDestroing == false)
             DestroyEGG();
 
+        //used On the comunocation section;
+        ChangeIsTaking();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -64,12 +68,28 @@ public class Egg : MonoBehaviour
         }
     }
 
+
+    private void OnTriggerExit(Collider other)
+    {
+        switch (other.tag)
+        {
+            case "Incubator":CorentPlace = EggPlace.inVoid;
+                break;
+            case "Lap":CorentPlace = EggPlace.inVoid;
+                break;
+            case "Tube":
+                CorentPlace = EggPlace.inVoid;
+                break;
+        }
+    }
+
     IEnumerator ReducEnergy()
     {
-        while(CorentPlace == EggPlace.inVoid)
+        while(true)
         {
             yield return new WaitForSeconds(1);
-            EnergyAmount -= EnergyRedeucingAmount;
+            if(CorentPlace == EggPlace.inVoid)
+                EnergyAmount -= EnergyRedeucingAmount;
             if (EnergyAmount < 0)
                 EnergyAmount = 0;
         }
@@ -80,7 +100,8 @@ public class Egg : MonoBehaviour
         while(true)
         {
             yield return new WaitForSeconds(1);
-            IncubateTimer--;
+            if (!(CorentPlace == EggPlace.inTube))
+                IncubateTimer--;
             if (IncubateTimer < 0)
                 IncubateTimer = 0;
             //Debug.Log(IncubateTimer);
@@ -123,31 +144,53 @@ public class Egg : MonoBehaviour
     float TakingEnergyAmount;
     public bool isTaking;
 
+    void ChangeIsTaking()//in Update
+    {
+        switch (CorentPlace)
+        {
+            case EggPlace.inIncubator:isTaking = false;
+                break;
+            //case EggPlace.inLap:isTaking = true;
+                //break;
+            case EggPlace.inTube:isTaking = false;
+                break;
+            case EggPlace.inVoid:isTaking = false;
+                break;
+        }
+    }
+
     public LAP BlueLap;
 
     public LAP YellowLap;
 
-    public void TakeEnergy (float DecresAmo ,bool isIn)
+    void KnowTheLaps()//in start
     {
         BlueLap = GameObject.Find("Blue Lap Holder NAMISIMP").GetComponent<LAP>();
         YellowLap = GameObject.Find("Yellow Lap Holder NAMISIMP").GetComponent<LAP>();
+    }
+
+    public void TakeEnergy (float DecresAmo ,bool isIn)
+    {
         TakingEnergyAmount = DecresAmo;
         isTaking = isIn;
-
-        if (isIn)
-            StartCoroutine(TakingEnergyTimer());
-        else if (!isIn)
-            StopCoroutine(TakingEnergyTimer());   
     }
 
 
-    IEnumerator TakingEnergyTimer()
+    IEnumerator TakingEnergyTimer()//in Start
     {
-        while (isTaking)
+        while (true)
         {
             yield return new WaitForSeconds(1);
-            EnergyAmount -= TakingEnergyAmount;
-            BlueLap.addEnergToLap(TakingEnergyAmount);
+            if(isTaking && IsBlue)
+            {
+                EnergyAmount -= TakingEnergyAmount;
+                BlueLap.addEnergToLap(TakingEnergyAmount);
+            }
+            if (isTaking && IsYellow)
+            {
+                EnergyAmount -= TakingEnergyAmount;
+                YellowLap.addEnergToLap(TakingEnergyAmount);
+            }
         }
     }
 
