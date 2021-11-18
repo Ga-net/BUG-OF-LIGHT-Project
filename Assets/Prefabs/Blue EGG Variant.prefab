@@ -47,7 +47,7 @@ MonoBehaviour:
   EnergyAmount: 100
   EnergyRedeucingAmount: 0.411
   IncubateTimer: 300
-  BOLPrefab: {fileID: 4099524262828052127, guid: d66f6b0c58c7a8b45be06f5dc2ae241f,
+  BOLPrefab: {fileID: 136184879691431462, guid: 4d0dcc8bfe513a547b901c543f55814f,
     type: 3}
   EGGFractions: {fileID: 113560353092575654, guid: 2344cc33be59cad448604846d73069b7,
     type: 3}
