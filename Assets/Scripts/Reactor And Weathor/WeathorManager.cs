@@ -85,11 +85,11 @@ public class WeathorManager : MonoBehaviour
         Vector3 CamPos = Camera.main.transform.position;
 
         if (Temperature > 0 && Temperature < 25)
-            CooldTempVolum.position = new Vector3(CamPos.x, Temperature, CamPos.z);
+            CooldTempVolum.position = new Vector3(CamPos.x,CamPos.y + Temperature, CamPos.z);
         if (Temperature < 50 && Temperature > 25)
         {
             float x = Mathf.Abs(((Temperature - 25) / 25) - 1) * Temperature;
-            HotTempVolum.position = new Vector3(CamPos.x, x, CamPos.z);
+            HotTempVolum.position = new Vector3(CamPos.x, CamPos.y + x, CamPos.z);
         }
 
         if(Temperature <=0)

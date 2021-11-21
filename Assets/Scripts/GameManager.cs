@@ -43,6 +43,10 @@ public class GameManager : MonoBehaviour
         {
             CorentTool = Tools.FoodTube;
             Debug.Log(CorentTool);
+        } else if (Input.GetKeyDown(KeyCode.Alpha6) || Input.GetKeyDown(KeyCode.Alpha7) || Input.GetKeyDown(KeyCode.Alpha8) || Input.GetKeyDown(KeyCode.Alpha9) || Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            CorentTool = Tools.Nothing;
+            Debug.Log(CorentTool);
         }
 
     }

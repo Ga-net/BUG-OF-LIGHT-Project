@@ -67,9 +67,9 @@ public class LAP : MonoBehaviour
     public float EnergyTubeCookTime;
 
     public GameObject BlueEnergyTube;
-    public Transform BlueEnergyTubeSpawonPos;
+    public Transform[] BlueEnergyTubeSpawonPos;
     public GameObject YellowEnergyTube;
-    public Transform YellowEnergyTubeSpawonPos;
+    public Transform[] YellowEnergyTubeSpawonPos;
 
     public float CorentTube;
 
@@ -106,13 +106,15 @@ public class LAP : MonoBehaviour
         if(CorentTube >= EnergyTubePrice && BlueEGGLap)
         {
             CorentTube = 0;
-            Instantiate(BlueEnergyTube, BlueEnergyTubeSpawonPos.position,Quaternion.identity);
+            int x = Random.Range(0, 2);
+            Instantiate(BlueEnergyTube, BlueEnergyTubeSpawonPos[x].position,Quaternion.identity);
         }
 
         if (CorentTube >= EnergyTubePrice && YellowEGGLap)
         {
             CorentTube = 0;
-            Instantiate(YellowEnergyTube, YellowEnergyTubeSpawonPos.position, Quaternion.identity);
+            int x = Random.Range(0, 2);
+            Instantiate(YellowEnergyTube, YellowEnergyTubeSpawonPos[x].position, Quaternion.identity);
         }
     }
 }

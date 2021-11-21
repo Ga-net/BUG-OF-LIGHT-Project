@@ -202,22 +202,13 @@ public class VacuumTip : MonoBehaviour
         {
                 OutOFTube();
         }
-    }
-
-
-
-
-
-
-    private void LateUpdate()
-    {
 
         //to remove The broken Blue Egges
         if (BlueEggs.Count > 0)
         {
             for (int i = 0; i < BlueEggs.Count; i++)
             {
-                if(BlueEggs[i] == null)
+                if (BlueEggs[i] == null)
                 {
                     BlueEggs.RemoveAt(i);
                 }
@@ -275,10 +266,63 @@ public class VacuumTip : MonoBehaviour
                 }
             }
         }
+    }
+
+
+
+
+
+
+    private void LateUpdate()
+    {
+
+        
         
     }
 
 
+    // to Hide The Egges in the tubes when the vacuum are not in use
+    public void HideAll()
+    {
+
+        foreach (var item in BlueEggs)
+        {
+            if (item != null)
+                item.SetActive(false);
+        }
+        foreach (var item in YellowEggs)
+        {
+            if (item != null)
+                item.SetActive(false);
+        }
+        foreach (var item in Food)
+        {
+            if (item != null)
+                item.SetActive(false);
+        }
+    }
+
+
+    public void UnHideAll()
+    {
+
+        foreach (var item in BlueEggs)
+        {
+            if(item != null)
+            item.SetActive(true);
+        }
+        foreach (var item in YellowEggs)
+        {
+            if (item != null)
+                item.SetActive(true);
+        }
+        foreach (var item in Food)
+        {
+            if (item != null)
+                item.SetActive(true);
+        }
+    }
+    
 }
 /*هذا الكلاس هو المسؤل عن
 1- يقوم بنقل الكائنات التي يمكن تخزينها إلى مخزنها الصحيح
