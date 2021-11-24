@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class Weapon : MonoBehaviour
     private void Update()
     {
         MyInput();
+        UpdateAmmoGUI();
     }
 
 
@@ -88,6 +90,8 @@ public class Weapon : MonoBehaviour
     }
 
 
+    public GameObject[] FireSoundOpj;
+
     void Shoot()
     {
         ReadyToShoot = false;
@@ -114,6 +118,7 @@ public class Weapon : MonoBehaviour
 
         //Instantiate a bullet && MuzzleFlash
         GameObject CurrentBullet = Instantiate(Bullet, FirePos.position, Quaternion.identity);
+        Instantiate(FireSoundOpj[Random.Range(0,FireSoundOpj.Length)], FirePos.position, Quaternion.identity);
         if (MuzzleFlash != null)
             Instantiate(MuzzleFlash, FirePos.position, Quaternion.identity);
         else Debug.Log("Dont Forget the MuzzleFlash");
@@ -143,18 +148,29 @@ public class Weapon : MonoBehaviour
         AllowToInvoke = true;
     }
 
+
+    public GameObject ReloadSoundOpj;
+    public GameObject DryGunSound;
     void Reload_F()
     {
         if(isBlue && PlayerManager.BlueEnergyTubesAmount >0)
         {
             Reloading = true;
+            Instantiate(ReloadSoundOpj, transform.position, Quaternion.identity);
             Invoke("ReloadFinished", ReloadTime);
+        }else if(isBlue && PlayerManager.BlueEnergyTubesAmount <= 0)
+        {
+            Instantiate(DryGunSound, transform.position, Quaternion.identity);
         }
 
         if(isYellow && PlayerManager.YellowEnergyTubesAmount >0)
         {
             Reloading = true;
+            Instantiate(ReloadSoundOpj, transform.position, Quaternion.identity);
             Invoke("ReloadFinished", ReloadTime);
+        }else if(isYellow && PlayerManager.YellowEnergyTubesAmount <= 0)
+        {
+            Instantiate(DryGunSound, transform.position, Quaternion.identity);
         }
     }
 
@@ -177,6 +193,22 @@ public class Weapon : MonoBehaviour
         }
     }
 
+
+
+
+    //GUI
+    public Text BlueAmmoText;
+    public Text YellowAmmoText;
+
+    void UpdateAmmoGUI()
+    {
+        if(isBlue)
+            BlueAmmoText.text = BulletsLeft.ToString().Insert(1, "/").Insert(2, MagazineSize.ToString());
+        if(isYellow)
+            YellowAmmoText.text = BulletsLeft.ToString().Insert(1, "/").Insert(2, MagazineSize.ToString());
+    }
+
+
     private void Start()
     {
         //to fix the fireing Without Tube bug
@@ -188,6 +220,10 @@ public class Weapon : MonoBehaviour
         {
             ReloadFinished();
         }
+
+        //GUI
+        BlueAmmoText = GameObject.Find("Blue Weapon Text NAMISIMP").GetComponent<Text>();
+        YellowAmmoText = GameObject.Find("Yellow Weapon Text NAMISIMP").GetComponent<Text>();
     }
 
 

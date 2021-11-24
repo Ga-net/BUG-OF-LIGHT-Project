@@ -4,8 +4,17 @@ ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
+      74: -982115091633673366
+    second: Armature|Death
+  - first:
       74: -5661803358526888339
     second: Armature|IDEL
+  - first:
+      74: -4623777027293295833
+    second: Armature|Move Forward
+  - first:
+      74: 2859124283005921099
+    second: Armature|Moving Forward Attack
   externalObjects: {}
   materials:
     materialImportMode: 1

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5608341009339619914}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TubePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8847296859264439038}
   - component: {fileID: 8847296859264439039}
   - component: {fileID: 8847296859264439027}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Yellow Weapon NAMISIMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBlue: 0
   isYellow: 1
-  Bullet: {fileID: 619007703019379340, guid: ab5a81c6328d15e42a8cf93a884cac33, type: 3}
+  Bullet: {fileID: 619007703019379340, guid: 2e866e41895d3eb4e9960b9200929817, type: 3}
   BluEnergyTube: {fileID: 0}
   YellowEnergyTube: {fileID: 8074303259202319627, guid: 3a8673e326b77324298eedfaf45d29b8,
     type: 3}
@@ -165,10 +165,10 @@ MonoBehaviour:
   UpForce: 0
   ShootingDelay: 0.1
   Spread: 0
-  ReloadTime: 2
+  ReloadTime: 1
   ShootingCoolDown: 0
   MagazineSize: 5
-  BulletPerTap: 1
+  BulletPerTap: 0
   AllowButtonHold: 0
   BulletsLeft: 0
   BulletsShot: 0
@@ -176,6 +176,9 @@ MonoBehaviour:
   FirePos: {fileID: 8847296859923703373}
   AllowToInvoke: 1
   MuzzleFlash: {fileID: 0}
+  FireSoundOpj: []
+  ReloadSoundOpj: {fileID: 0}
+  DryGunSound: {fileID: 0}
 --- !u!1 &8847296859923703372
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8847296859923703373}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WeaponTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8847296859923703372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0658, y: -0, z: -0}
+  m_LocalPosition: {x: 0.06, y: -0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9028961764569672738}

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public bool IsBlue;
+    public bool IsYellow;
+
     public Rigidbody Rig;
     public GameObject Explosion;
     public LayerMask WhatCanGetHit;
@@ -39,6 +42,9 @@ public class Bullet : MonoBehaviour
     }
 
 
+
+    public GameObject[] HitSoundOpj;
+
     void Expload()
     {
         if (Explosion != null)
@@ -50,10 +56,23 @@ public class Bullet : MonoBehaviour
         foreach (var Hitable in Enemies)
         {
             //call the take Damage Function
-            if (Hitable.GetComponent<LightBug>() != null && Hitable.CompareTag("BlueLightBug"))
+            // For Blue
+            if (IsYellow && Hitable.GetComponent<LightBug>() != null && Hitable.CompareTag("BlueLightBug"))
+            {
                 Hitable.GetComponent<LightBug>().TakeDamage(ExplosionDamage);
+                Instantiate(HitSoundOpj[Random.Range(0, HitSoundOpj.Length)], transform.position, Quaternion.identity);
+            }
 
-            if(Hitable.GetComponent<Rigidbody>() != null)
+            //For Yellow
+            if (IsBlue && Hitable.GetComponent<LightBug>() != null && Hitable.CompareTag("YellowLightBug"))
+            {
+                Hitable.GetComponent<LightBug>().TakeDamage(ExplosionDamage);
+                Instantiate(HitSoundOpj[Random.Range(0, HitSoundOpj.Length)], transform.position, Quaternion.identity);
+            }
+
+
+
+            if (Hitable.GetComponent<Rigidbody>() != null)
             {
                 Hitable.GetComponent<Rigidbody>().AddExplosionForce(ExploasinForce, transform.position, ExplosionRadios);
             }
@@ -72,7 +91,14 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //For blue
         Collisions++;
+        if(IsYellow && collision.gameObject.CompareTag("BlueLightBug"))
+            Expload();
+        //For Yellow
+        if (IsBlue && collision.gameObject.CompareTag("YellowLightBug"))
+            Expload();
+
         if (collision.collider.CompareTag("CanHit") && ExploadOnTouch)
             Expload();
     }

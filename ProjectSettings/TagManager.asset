@@ -16,6 +16,13 @@ TagManager:
   - CanHit
   - Bullet
   - Ground
+  - BlueLightBug
+  - BlueEnergyTube
+  - YellowEnergyTube
+  - Vacuum
+  - Weapon
+  - YellowLightBug
+  - PickDetector
   layers:
   - Default
   - TransparentFX
@@ -29,9 +36,9 @@ TagManager:
   - Player
   - Bullet
   - Dubole Junp
-  - 
-  - 
-  - 
+  - Nests
+  - Pickable
+  - Collision Detector
   - 
   - 
   - 

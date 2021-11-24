@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8871750072165032987}
   - component: {fileID: 1545962344692448704}
   - component: {fileID: -1778093636388600099}
+  - component: {fileID: 3365820601668054214}
   m_Layer: 10
   m_Name: Blue Projectile
   m_TagString: Bullet
@@ -63,7 +64,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2, z: 0.3}
+  m_Size: {x: 0.2, y: 0.2, z: 0.6}
   m_Center: {x: 0, y: 0, z: 0.07}
 --- !u!114 &-1778093636388600099
 MonoBehaviour:
@@ -77,6 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f7e3e24d39290479ed84bccc81a9a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBlue: 1
+  IsYellow: 0
   Rig: {fileID: 8871750072165032987}
   Explosion: {fileID: 0}
   WhatCanGetHit:
@@ -90,6 +93,23 @@ MonoBehaviour:
   MaxCollision: 1
   MaxLifeTIme: 4
   ExploadOnTouch: 1
+  HitSoundOpj:
+  - {fileID: 435408304748332025, guid: a636b76cc0f5c0f4385085fa040e2e7d, type: 3}
+  - {fileID: 435408304748332025, guid: 287b209131486dc469bba995eff6dd10, type: 3}
+  - {fileID: 435408304748332025, guid: 70440dcef362e4e4eb915a4d0a4f9444, type: 3}
+--- !u!114 &3365820601668054214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619007703019379340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4fdf3efa09c7674ca862dc1e1f64ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeToDestroy: 7
 --- !u!1 &1423129000223358302
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +394,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9672,7 +9692,7 @@ TrailRenderer:
   m_Time: 0.05
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:

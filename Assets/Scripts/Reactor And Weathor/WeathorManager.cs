@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
-
+using UnityEngine.UI;
 
 public class WeathorManager : MonoBehaviour
 {
+    
+
     public float TempChangingTime;
     public float PlayerDamgingTime;
     public static float Temperature = 25;
@@ -67,11 +69,12 @@ public class WeathorManager : MonoBehaviour
     }
 
 
-    void DamageThePlayer()//Call on it's one corotine (fone)
+    void DamageThePlayer()//Call on it's one corotine (Done)
     {
         if(CorentWeathorState == WeathorState.Heating || CorentWeathorState == WeathorState.Freezing)
         {
-            //call the Player GivDamage Function And Giv it the value of the VAR PlayerDamegingAmount 
+            //call the Player GivDamage Function And Giv it the value of the VAR PlayerDamegingAmount (Done)
+            PlayerManager.TakeDamage(PlayerDamegingAmount);
         }
     }
 
@@ -99,6 +102,17 @@ public class WeathorManager : MonoBehaviour
     }
 
 
+
+
+    //Gui
+    public Slider temperatureSliderUI;
+
+    void UpdateTemperatureUI()
+    {
+        temperatureSliderUI.value = Temperature;
+    }
+
+
     private void Start()
     {
         StartCoroutine(PlayerDamigingTimer());
@@ -110,6 +124,7 @@ public class WeathorManager : MonoBehaviour
         DeltaTempCalculator();
         WeathorStateChanger();
         PostProcessingEffects();
+        UpdateTemperatureUI();
     }
 
     

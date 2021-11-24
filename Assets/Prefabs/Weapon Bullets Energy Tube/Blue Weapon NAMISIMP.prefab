@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1993275579484112074}
   - component: {fileID: 1993275579484112075}
   - component: {fileID: 1993275579484112071}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Blue Weapon NAMISIMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,10 +135,10 @@ MonoBehaviour:
   UpForce: 0
   ShootingDelay: 0.1
   Spread: 0
-  ReloadTime: 2
+  ReloadTime: 1
   ShootingCoolDown: 0
   MagazineSize: 5
-  BulletPerTap: 1
+  BulletPerTap: 0
   AllowButtonHold: 0
   BulletsLeft: 0
   BulletsShot: 0
@@ -146,6 +146,9 @@ MonoBehaviour:
   FirePos: {fileID: 1993275579076456569}
   AllowToInvoke: 1
   MuzzleFlash: {fileID: 0}
+  FireSoundOpj: []
+  ReloadSoundOpj: {fileID: 0}
+  DryGunSound: {fileID: 0}
 --- !u!1 &1993275579076456568
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993275579076456569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WeaponTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993275579076456568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0658, y: -0, z: -0}
+  m_LocalPosition: {x: 0.06, y: -0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2027518036071430678}
@@ -185,7 +188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3223086831244397694}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TubePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}

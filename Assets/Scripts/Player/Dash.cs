@@ -50,6 +50,10 @@ public class Dash : MonoBehaviour
     public float FOVValu;
     float FOVValuSaver;
 
+    //Sound FX
+    public AudioSource DashSoudn;
+
+
     private void Start()
     {
         FOVValuSaver = Cam.fieldOfView;
@@ -68,7 +72,12 @@ public class Dash : MonoBehaviour
             if (DashAmount <= (DashAmountSaver / DashCoolDwonDivider))
                 DashAmount = 0;
             if((FOVValuSaver*FOVValu) > Cam.fieldOfView && (Mathf.Abs(Input.GetAxis("Horizontal")) >0.1f || Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f))
-            Cam.fieldOfView += FOVValu;
+                Cam.fieldOfView += FOVValu;
+
+            //playe Dash Sound
+            if(!DashSoudn.isPlaying)
+                DashSoudn.Play();
+
             //Debug.Log("IM dashing");
         }
         else 
@@ -77,6 +86,10 @@ public class Dash : MonoBehaviour
             InDashmod = false;
             if(Cam.fieldOfView > FOVValuSaver)
             Cam.fieldOfView -= FOVValu;
+
+            //Stop Dash Sound
+
+            //DashSoudn.Stop();
             //Debug.Log("IM Not dashing");
         }
 
