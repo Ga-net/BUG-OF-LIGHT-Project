@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 2d55fb645bd6e1148992a1db280e4831,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -298,6 +298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -713,6 +718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1121,6 +1131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -1536,6 +1551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1945,6 +1965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2353,6 +2378,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -2768,6 +2798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3176,6 +3211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -3591,6 +3631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4004,6 +4049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -4733,6 +4783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5141,6 +5196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -5551,6 +5611,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5959,6 +6024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -6369,6 +6439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6777,6 +6852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -7192,6 +7272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7605,6 +7690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -8020,6 +8110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8434,6 +8529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8847,6 +8947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -9390,6 +9495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9804,6 +9914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10212,6 +10327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -10627,6 +10747,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11036,6 +11161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11444,6 +11574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -11858,6 +11993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -12376,6 +12516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12785,6 +12930,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13193,6 +13343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -13608,6 +13763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14021,6 +14181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -14436,6 +14601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14849,6 +15019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -15264,6 +15439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15672,6 +15852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -16087,6 +16272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16500,6 +16690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -16915,6 +17110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17329,6 +17529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17737,6 +17942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -18152,6 +18362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18561,6 +18776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18969,6 +19189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -19384,6 +19609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19792,6 +20022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -20207,6 +20442,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20621,6 +20861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21029,6 +21274,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -21439,6 +21689,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21847,6 +22102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -22262,6 +22522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22671,6 +22936,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23079,6 +23349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -23588,6 +23863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24001,6 +24281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -24416,6 +24701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24829,6 +25119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -25470,6 +25765,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25883,6 +26183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -26298,6 +26603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -26711,6 +27021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -27250,6 +27565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27663,6 +27983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -28078,6 +28403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28487,6 +28817,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28895,6 +29230,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -29309,6 +29649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -29813,6 +30158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30221,6 +30571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -30636,6 +30991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31044,6 +31404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -31459,6 +31824,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31867,6 +32237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -32277,6 +32652,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32685,6 +33065,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -33100,6 +33485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -33509,6 +33899,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -33917,6 +34312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -34332,6 +34732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34741,6 +35146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -35149,6 +35559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -35564,6 +35979,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -35973,6 +36393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36381,6 +36806,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -36796,6 +37226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -37210,6 +37645,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -37618,6 +38058,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -38033,6 +38478,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -38441,6 +38891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -38851,6 +39306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -39260,6 +39720,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -39668,6 +40133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -40083,6 +40553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -40492,6 +40967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -40900,6 +41380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -41314,6 +41799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -41818,6 +42308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42227,6 +42722,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42635,6 +43135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -43050,6 +43555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43459,6 +43969,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43867,6 +44382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -44282,6 +44802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44695,6 +45220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -45238,6 +45768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -45646,6 +46181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -46061,6 +46601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46474,6 +47019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -46889,6 +47439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -47297,6 +47852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -47806,6 +48366,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -48219,6 +48784,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -48727,6 +49297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -49140,6 +49715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -49555,6 +50135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -49963,6 +50548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -50378,6 +50968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -50792,6 +51387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -51200,6 +51800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -51610,6 +52215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52018,6 +52628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -52433,6 +53048,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52847,6 +53467,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53256,6 +53881,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53664,6 +54294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -54079,6 +54714,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -54493,6 +55133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -54902,6 +55547,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -55310,6 +55960,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -55742,11 +56397,6 @@ PrefabInstance:
       objectReference: {fileID: 641041761}
     - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
-      propertyPath: Speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
-        type: 3}
       propertyPath: DeathAnim
       value: 
       objectReference: {fileID: 7400000, guid: abd5b462112cd8243b99fbdfbf948cac, type: 2}
@@ -55762,28 +56412,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
-      propertyPath: AttackingRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
-        type: 3}
       propertyPath: BugLightBullet
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
-        type: 3}
-      propertyPath: RotateAroundSpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
-        type: 3}
-      propertyPath: BugDamageingAmount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
-        type: 3}
-      propertyPath: PlayerDetectionRange
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4316577583927111726, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -56262,6 +56892,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -56676,6 +57311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -57089,6 +57729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -57632,6 +58277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -58040,6 +58690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -58554,6 +59209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -58962,6 +59622,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -59377,6 +60042,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -59790,6 +60460,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -60205,6 +60880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -60613,6 +61293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -61027,6 +61712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -61531,6 +62221,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -61939,6 +62634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -62349,6 +63049,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -62757,6 +63462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -63172,6 +63882,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -63580,6 +64295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -63990,6 +64710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -64398,6 +65123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -64813,6 +65543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -65227,6 +65962,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -65635,6 +66375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -66050,6 +66795,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -66458,6 +67208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -66895,11 +67650,6 @@ PrefabInstance:
       objectReference: {fileID: 641041761}
     - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
-      propertyPath: Speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
-        type: 3}
       propertyPath: DeathAnim
       value: 
       objectReference: {fileID: 7400000, guid: abd5b462112cd8243b99fbdfbf948cac, type: 2}
@@ -66915,33 +67665,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
-      propertyPath: AttackingRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
-        type: 3}
       propertyPath: BugLightBullet
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
-        type: 3}
-      propertyPath: RotateAroundSpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
-        type: 3}
-      propertyPath: BugDamageingAmount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338256, guid: 518f5fa7950bf234e82cd1933de10ed6,
-        type: 3}
-      propertyPath: PlayerDetectionRange
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061617706401338263, guid: 518f5fa7950bf234e82cd1933de10ed6,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4316577583927111726, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -67420,6 +68145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -67833,6 +68563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -68248,6 +68983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -68662,6 +69402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -69070,6 +69815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -69485,6 +70235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -69899,6 +70654,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -70307,6 +71067,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -70722,6 +71487,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -71130,6 +71900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -71545,6 +72320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -71953,6 +72733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -72363,6 +73148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -72771,6 +73561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -73181,6 +73976,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -73589,6 +74389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -74004,6 +74809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74418,6 +75228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74826,6 +75641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -75241,6 +76061,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -75654,6 +76479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -76158,6 +76988,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -76566,6 +77401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -76981,6 +77821,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -77390,6 +78235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -77798,6 +78648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -78213,6 +79068,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -78622,6 +79482,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -79030,6 +79895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -79445,6 +80315,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -79858,6 +80733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -80273,6 +81153,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -80681,6 +81566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -81096,6 +81986,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -81504,6 +82399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -82013,6 +82913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -82421,6 +83326,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -82836,6 +83746,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -83244,6 +84159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -83658,6 +84578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -84162,6 +85087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -84570,6 +85500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -84980,6 +85915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -85388,6 +86328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -85803,6 +86748,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -86211,6 +87161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -86626,6 +87581,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -87035,6 +87995,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -87443,6 +88408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -87858,6 +88828,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -88271,6 +89246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -88686,6 +89666,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89095,6 +90080,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89503,6 +90493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Light Bug (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
@@ -90046,6 +91041,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -90459,6 +91459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -90874,6 +91879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Light Bug (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -91287,6 +92297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}
@@ -91702,6 +92717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Light Bug (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 9ed270fda1ccdfd4e86890a46d7d2796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -92110,6 +93130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Yellow Light Bug (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791092010923103611, guid: 518f5fa7950bf234e82cd1933de10ed6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018279139476158990, guid: 518f5fa7950bf234e82cd1933de10ed6,
         type: 3}

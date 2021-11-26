@@ -74,11 +74,23 @@ public class Weapon : MonoBehaviour
         }
 
         //Reloading
-        if (Input.GetKeyDown(KeyCode.R) && BulletsLeft < MagazineSize && !Reloading)
+        if (Input.GetKeyDown(KeyCode.R) && BulletsLeft <= 0 && !Reloading)
+        {
             Reload_F();
+            //if (isBlue)
+            //    PlayerManager.BlueEnergyTubesAmount--;
+            //if (isYellow)
+            //    PlayerManager.YellowEnergyTubesAmount--;
+        }
         //Auto Reloading
         if (ReadyToShoot && Shoting && !Reloading && BulletsLeft <= 0)
+        {
             Reload_F();
+            //if (isBlue)
+            //    PlayerManager.BlueEnergyTubesAmount--;
+            //if (isYellow)
+            //    PlayerManager.YellowEnergyTubesAmount--;
+        }
 
         //Shoting
         if(ReadyToShoot&&Shoting&&!Reloading&&BulletsLeft>0)
@@ -184,12 +196,14 @@ public class Weapon : MonoBehaviour
             CorentBlueTube = Instantiate(BluEnergyTube, BlueTubePos.position, Quaternion.identity);
             BulletsLeft = MagazineSize;
             Reloading = false;
+                PlayerManager.BlueEnergyTubesAmount--;
         }
         if (isYellow)
         {
             CorentYellowTube = Instantiate(YellowEnergyTube, YellowTubePos.position, Quaternion.identity);
             BulletsLeft = MagazineSize;
             Reloading = false;
+                PlayerManager.YellowEnergyTubesAmount--;
         }
     }
 

@@ -18,6 +18,7 @@ public class Bullet : MonoBehaviour
 
 
     public float ExplosionDamage;
+    public float ExplosionHeal;
     public float ExplosionRadios;
     public float ExploasinForce;
 
@@ -61,6 +62,9 @@ public class Bullet : MonoBehaviour
             {
                 Hitable.GetComponent<LightBug>().TakeDamage(ExplosionDamage);
                 Instantiate(HitSoundOpj[Random.Range(0, HitSoundOpj.Length)], transform.position, Quaternion.identity);
+            }else if(IsBlue && Hitable.GetComponent<LightBug>() != null && Hitable.CompareTag("BlueLightBug"))
+            {
+                Hitable.GetComponent<LightBug>().TakeHeal(ExplosionHeal);
             }
 
             //For Yellow
@@ -68,6 +72,9 @@ public class Bullet : MonoBehaviour
             {
                 Hitable.GetComponent<LightBug>().TakeDamage(ExplosionDamage);
                 Instantiate(HitSoundOpj[Random.Range(0, HitSoundOpj.Length)], transform.position, Quaternion.identity);
+            }else if(IsYellow && Hitable.GetComponent<LightBug>() != null && Hitable.CompareTag("YellowLightBug"))
+            {
+                Hitable.GetComponent<LightBug>().TakeHeal(ExplosionHeal);
             }
 
 

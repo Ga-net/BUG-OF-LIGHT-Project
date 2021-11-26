@@ -93,10 +93,6 @@ public class EnergyTube : MonoBehaviour
             //
             if(!IsDestroying)
             {
-                if (IsBlue)
-                    PlayerManager.BlueEnergyTubesAmount--;
-                if (IsYellow)
-                    PlayerManager.YellowEnergyTubesAmount--;
                 Destroy();
             }
         }

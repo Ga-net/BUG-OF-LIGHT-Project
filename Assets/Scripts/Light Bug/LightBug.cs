@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class LightBug : MonoBehaviour
 {
+    //Light Bug Variations
+    public bool IsBlue;
+    public bool IsYellow;
+
     //Animation
     public Animator Anim;
 
@@ -53,12 +57,15 @@ public class LightBug : MonoBehaviour
 
     //Health And Damage
     public float Health;
+    float Health_Saver;
     bool IsDead;
-
+    public GameObject DamageGUIObj;
     public void TakeDamage(float DamageToTake)
     {
         Health -= DamageToTake;
         Happyness -= HappynessDecreasingAmount;
+        GameObject CorentDamageUI =  Instantiate(DamageGUIObj, transform.position/* + (transform.up *0)*/, Quaternion.identity);
+        CorentDamageUI.GetComponentInChildren<Damage_Heal_UI>().DamageAmount(DamageToTake);
 
         if (Health <= 0)
         {
@@ -71,12 +78,36 @@ public class LightBug : MonoBehaviour
         
     }
 
+    public GameObject HealGUIObj;
 
+    public void TakeHeal(float HealToTake)
+    {
+        if(Health < Health_Saver)
+        {
+            Health += HealToTake;
+        }
+        if(Happyness < 10)
+        {
+            Happyness += HappynessDecreasingAmount/2;
+        }
+            GameObject CorentHealUI = Instantiate(HealGUIObj, transform.position/* + (transform.up *0)*/, Quaternion.identity);
+            CorentHealUI.GetComponentInChildren<Damage_Heal_UI>().HealAmount(HealToTake);
+    }
+
+    public GameObject GroundHItSound;
+    bool GetDestroyed;
     //public float FallingDeathVelocity;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground") && IsDead)
-            Destroy_F();
+        {
+            if(!GetDestroyed)
+            {
+                GetDestroyed = true;
+                Instantiate(GroundHItSound, transform.position, Quaternion.identity);
+                Destroy_F();
+            }
+        }
 
         //if (collision.gameObject.CompareTag("Ground") && Rig.velocity.magnitude >= FallingDeathVelocity)
         //    Destroy_F();
@@ -92,7 +123,14 @@ public class LightBug : MonoBehaviour
 
     private void OnDestroy()
     {
-        WeathorManager.YellowLightBugsCount--;//IsYellow
+        if(IsBlue)
+        {
+            WeathorManager.BlueLightBugsCount--;
+        }
+        if(IsYellow)
+        {
+            WeathorManager.YellowLightBugsCount--;//IsYellow
+        }
     }
 
     //Happyness
@@ -184,13 +222,38 @@ public class LightBug : MonoBehaviour
         Normal,//done
         Attack,
         EggButing,//done
-        Defensi,
-        TakeingFood,
+        Defensi,//--
+        TakeingFood,//--
         FlowingPlayer,
         PlayerControll
     }
 
     State CorentState;
+
+    //State Chaging
+    void StateChanger()
+    {
+        if(IsDead)
+        {
+            CorentState = State.Normal;
+        }
+        else if (CorentEggIncubating <= incubatingTime / 5)
+        {
+            CorentState = State.EggButing;
+        }
+        else if ((Vector3.Distance(PlayerTran.position, transform.position) <= PlayerDetectionRange && Happyness <= 7) || Happyness <= 4)
+        {
+            CorentState = State.Attack;
+        }
+        else if(Happyness >= 10)
+        {
+            CorentState = State.FlowingPlayer;
+        }
+        else
+        {
+            CorentState = State.Normal;
+        }
+    }
 
 
 
@@ -204,7 +267,28 @@ public class LightBug : MonoBehaviour
         Rig.AddForce(NegativeVelocity * AirFriction * Time.deltaTime);
     }
 
-
+    void velocityReduser()
+    {
+        if(Rig.velocity.magnitude >3)
+        {
+            if(Rig.velocity.x >0)
+            {
+                Rig.velocity -= new Vector3(Time.deltaTime, 0, 0);
+            }
+            if (Rig.velocity.z > 0)
+            {
+                Rig.velocity -= new Vector3(0, 0, Time.deltaTime);
+            }
+            if (Rig.velocity.x < 0)
+            {
+                Rig.velocity += new Vector3(Time.deltaTime, 0, 0);
+            }
+            if (Rig.velocity.z < 0)
+            {
+                Rig.velocity += new Vector3(0, 0, Time.deltaTime);
+            }
+        }
+    }
 
 
     //Attack State
@@ -213,19 +297,12 @@ public class LightBug : MonoBehaviour
 
     void attackPlayer()
     {
-        if(Vector3.Distance(PlayerTran.position,transform.position) <= PlayerDetectionRange)
-        {
-            CorentState = State.Attack;
-
-            GoToword(PlayerTran, Vector3.up);
-        }
+        GoToword(PlayerTran, Vector3.up);
 
         if(CorentState == State.Attack)
         {
             Attacking();
         }
-
-       
     }
 
 
@@ -238,6 +315,14 @@ public class LightBug : MonoBehaviour
         }
     }
 
+
+    Vector3 PlayerFowloingOffset;
+
+    void FlowingPlayer_F()
+    {
+        GoToword(PlayerTran,PlayerFowloingOffset);
+    }
+
     public float AttackingRange;
     public float BugDamageingAmount;
     void DamagePlayer()//Call By the attack Animation
@@ -245,7 +330,7 @@ public class LightBug : MonoBehaviour
         if(Vector3.Distance(PlayerTran.position, transform.position) <= AttackingRange)
         {
             PlayerManager.TakeDamage(BugDamageingAmount);
-            Debug.Log("Damage");
+            //Debug.Log("Damage");
         }
     }
 
@@ -260,12 +345,6 @@ public class LightBug : MonoBehaviour
         else
         {
             Rig.constraints = RigidbodyConstraints.None;
-        }
-
-        if(Vector3.Distance(PlayerTran.position, transform.position) >= PlayerDetectionRange)
-        {
-            CorentState = State.Normal;
-            //????????????????????????
         }
     }
 
@@ -283,31 +362,51 @@ public class LightBug : MonoBehaviour
 
     private void Start()
     {
-        int x = Random.Range(1, 3);//??????????????????
-        if(x == 1)//??????????????????
-            WeathorManager.YellowLightBugsCount++;//??????????????????
-        if (x == 2)//??????????????????
-            WeathorManager.BlueLightBugsCount++;//???????????????
+        Health_Saver = Health;
+        PlayerFowloingOffset = new Vector3(Random.Range(-7, 8), Random.Range(1, 5), Random.Range(-7, 8));
+
+        if(IsBlue)
+        WeathorManager.BlueLightBugsCount++;
+        if(IsYellow)
+        WeathorManager.YellowLightBugsCount++;
 
 
 
-            PlayerTran = GameObject.Find("FPSController NAMISIMP").transform;
+        PlayerTran = GameObject.Find("FPSController NAMISIMP").transform;
         CorentEggIncubating = incubatingTime;
     }
 
 
     private void Update()
     {
+        StateChanger();
+        AnimStop_Play();
+        FreezeRig();
+        velocityReduser();
+
         if (!IsDead)
         {
             FloateingEffect();
-            Incubating_F();
             WhatIsAround();
-            EggButing();
-            AnimStop_Play();
-            Normal();
-            attackPlayer();
-            FreezeRig();
+            Incubating_F();
+            
+            if(CorentState == State.EggButing)
+            {
+                EggButing();
+            }
+            else if(CorentState == State.Attack)
+            {
+                attackPlayer();
+            }
+            else if(CorentState == State.FlowingPlayer)
+            {
+                FlowingPlayer_F();
+            }
+            else
+            {
+                Normal();
+            }
+
         }
         
     }

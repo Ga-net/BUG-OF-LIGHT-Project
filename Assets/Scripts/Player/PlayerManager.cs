@@ -175,12 +175,8 @@ public class PlayerManager : MonoBehaviour
 
     void UpdateTubesCountUI()
     {
-        int BlueEnergyTubesAmountSubOne = BlueEnergyTubesAmount - 1;
-        int YellowEnergyTubesAmountSubOne = YellowEnergyTubesAmount - 1;
-        if(BlueEnergyTubesAmount >0)
-            BlueEnergyTubes.text = BlueEnergyTubesAmountSubOne.ToString();
-        if (YellowEnergyTubesAmount > 0)
-            YellowEnergyTubes.text = YellowEnergyTubesAmountSubOne.ToString();
+            BlueEnergyTubes.text = BlueEnergyTubesAmount.ToString();
+            YellowEnergyTubes.text = YellowEnergyTubesAmount.ToString();
     }
 
 

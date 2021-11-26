@@ -462,7 +462,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3791092010923103611}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 52baaeb214519f347a35cf0edfd262ff, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 2
@@ -476,7 +476,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3791092010923103611}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 52baaeb214519f347a35cf0edfd262ff, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -494,6 +494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5baef8adcba1e1544acb6437c3a48164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBlue: 1
+  IsYellow: 0
   Anim: {fileID: 1936484632677010741}
   Speed: 10
   FloatingForce: 100
@@ -505,9 +507,15 @@ MonoBehaviour:
     m_Bits: 3127
   incubatingTime: 300
   CorentEggIncubating: 70
-  Egg: {fileID: 0}
+  Egg: {fileID: 571879603784712569, guid: 20162ed676e29444d909db36718290c8, type: 3}
   IncubatingPos: {fileID: 6189801250327555434}
   Health: 5
+  DamageGUIObj: {fileID: 8707766273716221993, guid: 123b69393bcb47640a2f02b2101afda1,
+    type: 3}
+  HealGUIObj: {fileID: 8707766273716221993, guid: 9f1ee06592ec02b45aa3bed880d1e03f,
+    type: 3}
+  GroundHItSound: {fileID: 435408304748332025, guid: 3a9d0973eeaebe14b965627a9c19f7c0,
+    type: 3}
   Happyness: 5
   HappynessDecreasingAmount: 1
   DetectionRadios: 10
@@ -525,9 +533,9 @@ MonoBehaviour:
   FixRotationTime: 4
   AirFriction: 10000
   PlayerTran: {fileID: 0}
-  PlayerDetectionRange: 10
-  AttackingRange: 0
-  BugDamageingAmount: 0
+  PlayerDetectionRange: 20
+  AttackingRange: 5
+  BugDamageingAmount: 1
 --- !u!1 &4023655240420556077
 GameObject:
   m_ObjectHideFlags: 0

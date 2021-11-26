@@ -88,6 +88,7 @@ MonoBehaviour:
   Bounciness: 1
   UseGravity: 0
   ExplosionDamage: 0.5
+  ExplosionHeal: 0.5
   ExplosionRadios: 10
   ExploasinForce: 7000
   MaxCollision: 1
