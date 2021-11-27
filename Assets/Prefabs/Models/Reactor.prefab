@@ -471,6 +471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8979799848207525999}
   - component: {fileID: 8868732393543280020}
+  - component: {fileID: 8486456326936551085}
   m_Layer: 0
   m_Name: Reactor
   m_TagString: Untagged
@@ -515,3 +516,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8486456326936551085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8634940686983262933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f32d88716382c840a8daf72303c5ef5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TempreatureChangingTime: 0
+  EnergyRedusingAmount: 0
+  EnergeToTemperatureDevider: 0
+  MaxEnergyAmount: 0
+  ReactorAnimator: {fileID: 8868732393543280020}

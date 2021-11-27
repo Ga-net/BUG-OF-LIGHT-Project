@@ -151,6 +151,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        CorentTool = Tools.Nothing;
         HighLightTheSellected();
     }
 

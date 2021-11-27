@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7467768439126965223}
   - component: {fileID: 6264682136616198348}
   - component: {fileID: 7895581681541345896}
+  - component: {fileID: 1487561632027208118}
   m_Layer: 0
   m_Name: Rock 1 Var 1B_low
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4473872661511478277}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.20582198, y: 6.4897513, z: 3.6950114}
-  m_LocalScale: {x: 100, y: 99.999985, z: 99.999985}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1487561632027208118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473872661511478277}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4586444, y: 2.5107331, z: 3.5839665}
+  m_Center: {x: 0.068081796, y: -0.1537696, z: -0.008000731}

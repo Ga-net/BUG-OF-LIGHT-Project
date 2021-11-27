@@ -47,7 +47,7 @@ public class LightBug : MonoBehaviour
         CorentEggIncubating -= Time.deltaTime;
         if (CorentEggIncubating <= 0)
         {
-            Instantiate(Egg, IncubatingPos.position, Quaternion.identity);
+            Instantiate(Egg, IncubatingPos.position + (Vector3.down * 2), Quaternion.identity);
             CorentEggIncubating = incubatingTime;
             NearestNest = null;
         }

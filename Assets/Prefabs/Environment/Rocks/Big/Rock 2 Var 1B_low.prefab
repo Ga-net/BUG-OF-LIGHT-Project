@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4356005207904813977}
   - component: {fileID: 10187026565692603}
   - component: {fileID: 7016762522133497912}
+  - component: {fileID: 2776768390520244649}
   m_Layer: 0
   m_Name: Rock 2 Var 1B_low
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 358892945172174883}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -194.19647, y: -10.943524, z: -17.006907}
-  m_LocalScale: {x: 100, y: 99.999985, z: 99.999985}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2776768390520244649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358892945172174883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.772914, y: 6.419733, z: 4.4115286}
+  m_Center: {x: 0.069431305, y: -0.12497471, z: 0.3070301}
