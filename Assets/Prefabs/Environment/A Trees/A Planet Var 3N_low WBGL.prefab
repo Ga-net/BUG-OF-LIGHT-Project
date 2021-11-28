@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8527019262514391816}
   - component: {fileID: 6605237904951582149}
   - component: {fileID: 3882332567053293234}
+  - component: {fileID: -1655344491206536087}
   m_Layer: 0
   m_Name: A Planet Var 3N_low WBGL
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!136 &-1655344491206536087
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319855689505700651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.6087165
+  m_Height: 5.89628
+  m_Direction: 1
+  m_Center: {x: -0.33875912, y: 2.94814, z: 0.16183887}

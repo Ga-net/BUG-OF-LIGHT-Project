@@ -431,6 +431,7 @@ GameObject:
   - component: {fileID: 494802654215181126}
   - component: {fileID: 3421450897663109754}
   - component: {fileID: 5958692965267529245}
+  - component: {fileID: 7570559552550575988}
   m_Layer: 9
   m_Name: Blue Egg
   m_TagString: Untagged
@@ -494,6 +495,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7570559552550575988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962224714040924522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1265860418417425689
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +595,7 @@ GameObject:
   - component: {fileID: 949442357910780878}
   - component: {fileID: 2392384840237539558}
   - component: {fileID: 6732261736211855689}
+  - component: {fileID: 4470841668912544325}
   m_Layer: 9
   m_Name: Hand
   m_TagString: Untagged
@@ -642,6 +659,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4470841668912544325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179253232252696670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2524452566867007183
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +846,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9d9b171e39f99b4b8d0ff36fda2f13b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VacumeParts:
+  - {fileID: 962224714040924522}
+  - {fileID: 2945845070658210085}
+  - {fileID: 6245884685487900937}
+  WeaponParts:
+  - {fileID: 7678295896860461961}
   SellectionHighLight:
   - {fileID: 5358218082092808593}
   - {fileID: 4665228670655951419}
@@ -954,6 +992,7 @@ GameObject:
   - component: {fileID: 8825828278337908664}
   - component: {fileID: 8636428507553422343}
   - component: {fileID: 8051269301997676773}
+  - component: {fileID: 9006917963765040516}
   m_Layer: 9
   m_Name: Yellow Egg
   m_TagString: Untagged
@@ -1017,6 +1056,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9006917963765040516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2945845070658210085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2983386892382829633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,6 +1380,7 @@ GameObject:
   - component: {fileID: 2475885031289855012}
   - component: {fileID: 6448432360384458334}
   - component: {fileID: 4910406014125419740}
+  - component: {fileID: 8570730995548996049}
   m_Layer: 9
   m_Name: Tool 1
   m_TagString: Untagged
@@ -1389,6 +1444,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8570730995548996049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358218082092808593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &5595770356122954603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1769,7 @@ GameObject:
   - component: {fileID: 4319192165501561405}
   - component: {fileID: 5580820298498740632}
   - component: {fileID: 779253373556583093}
+  - component: {fileID: 5714071024474909765}
   m_Layer: 9
   m_Name: Food
   m_TagString: Untagged
@@ -1762,6 +1833,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5714071024474909765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6245884685487900937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &7678295896860461961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1859,7 @@ GameObject:
   - component: {fileID: 8931302096089704572}
   - component: {fileID: 3456946775538808307}
   - component: {fileID: 4190636089590898019}
+  - component: {fileID: 5595790285105777379}
   m_Layer: 9
   m_Name: Weapon
   m_TagString: Untagged
@@ -1836,6 +1923,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5595790285105777379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678295896860461961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &7708007546751923567
 GameObject:
   m_ObjectHideFlags: 0

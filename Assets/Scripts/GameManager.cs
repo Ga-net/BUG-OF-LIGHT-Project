@@ -4,6 +4,53 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static int FoodAmount;
+
+    //Tools Icon Hide And Show
+    public GameObject[] VacumeParts;
+    public GameObject[] WeaponParts;
+    void HideVacuum()
+    {
+        foreach (var item in VacumeParts)
+        {
+            item.SetActive(false);
+        }
+    }
+    void ShowVacuum()
+    {
+        foreach (var item in VacumeParts)
+        {
+            item.SetActive(true);
+        }
+    }
+    void HideWeapon()
+    {
+        foreach (var item in WeaponParts)
+        {
+            item.SetActive(false);
+        }
+    }
+    void ShowWeapon()
+    {
+        foreach (var item in WeaponParts)
+        {
+            item.SetActive(true);
+        }
+    }
+    public void HideAndeShowIcons()
+    {
+        if (PlayerManager.HasVacuum)
+            ShowVacuum();
+        else
+            HideVacuum();
+
+        if (PlayerManager.HasWeapons)
+            ShowWeapon();
+        else
+            HideWeapon();
+
+    }
+
     //Tools Section
     public enum Tools
     {
@@ -153,10 +200,20 @@ public class GameManager : MonoBehaviour
     {
         CorentTool = Tools.Nothing;
         HighLightTheSellected();
+        HideAndeShowIcons();
     }
 
+    float Delay = 5;
+    float delay1;
     void Update()
     {
         ToolSelection();    //This Function Work As An Item System
+        //to avoid Hideing And unhiding Every frame
+        delay1 -= Time.deltaTime;
+        if(delay1 <= 0)
+        {
+            HideAndeShowIcons();
+            delay1 = Delay;
+        }
     }
 }

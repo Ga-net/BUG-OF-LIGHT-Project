@@ -43,6 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6388990494883349828}
   - component: {fileID: 6936486451397052024}
+  - component: {fileID: 1434635863778985060}
   m_Layer: 0
   m_Name: Reactor Pumps
   m_TagString: Untagged
@@ -119,6 +120,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.1042289, y: -0.20158353, z: -0.12402411}
     m_Extent: {x: 0.21928753, y: 0.27580088, z: 0.17928542}
   m_DirtyAABB: 0
+--- !u!64 &1434635863778985060
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336646003394676245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &3799164935201981050
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +206,7 @@ GameObject:
   - component: {fileID: 8894173722702780243}
   - component: {fileID: 5489308841567054593}
   - component: {fileID: 860574062481594273}
+  - component: {fileID: 2738403660295494907}
   m_Layer: 0
   m_Name: Reactor Tubes
   m_TagString: Untagged
@@ -259,6 +275,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2738403660295494907
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211499116839406884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5127830533706604031, guid: cab0256d294b29d42828c9c487b4dc6f, type: 3}
 --- !u!1 &4969480795464195920
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +330,7 @@ GameObject:
   - component: {fileID: 1136793890771062677}
   - component: {fileID: 8220902582432945307}
   - component: {fileID: 4108920961254642009}
+  - component: {fileID: 578594751463391309}
   m_Layer: 0
   m_Name: Reactor
   m_TagString: Untagged
@@ -369,6 +400,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &578594751463391309
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5708320288008506885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 372144781533790289, guid: cab0256d294b29d42828c9c487b4dc6f, type: 3}
 --- !u!1 &6120364781673462190
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +445,50 @@ Transform:
   m_Father: {fileID: 13085496124111089}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7192555073631173607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090087119359955165}
+  - component: {fileID: 6460603811246382604}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1090087119359955165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192555073631173607}
+  m_LocalRotation: {x: -0, y: -0, z: 0.22202024, w: 0.97504205}
+  m_LocalPosition: {x: -38.02, y: -8.92, z: 0}
+  m_LocalScale: {x: 38.170265, y: 1, z: 37.268}
+  m_Children: []
+  m_Father: {fileID: 8979799848207525999}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.655}
+--- !u!65 &6460603811246382604
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192555073631173607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7271492375592171709
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +583,7 @@ Transform:
   - {fileID: 1136793890771062677}
   - {fileID: 6388990494883349828}
   - {fileID: 8894173722702780243}
+  - {fileID: 1090087119359955165}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

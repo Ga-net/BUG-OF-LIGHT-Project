@@ -63,7 +63,7 @@ MonoBehaviour:
   - {fileID: 8675968949644798554}
   - {fileID: 8961271189844684876}
   Player_Health: 20
-  Player_Hunger: 100
+  Player_Hunger: 200
   BlueEnergyTubes: {fileID: 7750130894499627967}
   YellowEnergyTubes: {fileID: 7305922076869597881}
   GuiAnimator: {fileID: 8189506918018485626}
@@ -673,7 +673,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 218676ecb975154408b1e66eebfd52ac, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1.5
   Loop: 0
   Mute: 0
@@ -1374,6 +1374,7 @@ GameObject:
   - component: {fileID: 6857919927444963120}
   - component: {fileID: 6998369041758538690}
   - component: {fileID: 4307605348969696265}
+  - component: {fileID: 7584482187534176875}
   m_Layer: 9
   m_Name: Blue Weapon Text NAMISIMP
   m_TagString: Untagged
@@ -1441,6 +1442,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 5/5
+--- !u!114 &7584482187534176875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846970531717524725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2863167608714963111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1641,7 @@ GameObject:
   - component: {fileID: 8754972637317656987}
   - component: {fileID: 6271298972996729928}
   - component: {fileID: 7750130894499627967}
+  - component: {fileID: 2804531019130947778}
   m_Layer: 9
   m_Name: Blue Energy Tubes Text
   m_TagString: Untagged
@@ -1692,6 +1709,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 12
+--- !u!114 &2804531019130947778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3032472692307345489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &3244487552673697846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,6 +1959,7 @@ GameObject:
   - component: {fileID: 259752440495529655}
   - component: {fileID: 5049763521327660031}
   - component: {fileID: 3252037556414271128}
+  - component: {fileID: 555863028225652758}
   m_Layer: 9
   m_Name: Yellow Weapon Text NAMISIMP
   m_TagString: Untagged
@@ -1994,6 +2027,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 5/5
+--- !u!114 &555863028225652758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3558921047112958310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &3633793581856507878
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,6 +4680,7 @@ GameObject:
   - component: {fileID: 5113200626809594620}
   - component: {fileID: 4064752236660158205}
   - component: {fileID: 7305922076869597881}
+  - component: {fileID: 8875351203414102575}
   m_Layer: 9
   m_Name: Yellow Energy Tubes Text
   m_TagString: Untagged
@@ -4699,6 +4748,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 10
+--- !u!114 &8875351203414102575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7203839815364213684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &7323448032867775450
 GameObject:
   m_ObjectHideFlags: 0
@@ -5689,7 +5753,7 @@ PrefabInstance:
     - target: {fileID: 1686844650646429868, guid: fbf66ca3202ee114887b177f66bbc673,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1993275579076456568, guid: fbf66ca3202ee114887b177f66bbc673,
         type: 3}
@@ -5829,7 +5893,7 @@ PrefabInstance:
     - target: {fileID: 8504626026103584408, guid: dfadfef4a7ec8544888c9603357a358f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8847296859264439027, guid: dfadfef4a7ec8544888c9603357a358f,
         type: 3}
@@ -5927,15 +5991,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfadfef4a7ec8544888c9603357a358f, type: 3}
---- !u!4 &669102160114068054 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9028961764569672738, guid: dfadfef4a7ec8544888c9603357a358f,
-    type: 3}
-  m_PrefabInstance: {fileID: 8359930218685253236}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &144942510559195372 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8504626026103584408, guid: dfadfef4a7ec8544888c9603357a358f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8359930218685253236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &669102160114068054 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9028961764569672738, guid: dfadfef4a7ec8544888c9603357a358f,
     type: 3}
   m_PrefabInstance: {fileID: 8359930218685253236}
   m_PrefabAsset: {fileID: 0}
