@@ -69,7 +69,7 @@ public class PickingStuff : MonoBehaviour
     {
             Destroy(Vacuum);
             PlayerManager.HasVacuum = true;
-            GameManager.CorentTool = GameManager.Tools.Vacuum;
+            GameManager.CorentTool = GameManager.Tools.FoodTube;
     }
 
 

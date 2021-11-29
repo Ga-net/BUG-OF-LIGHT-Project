@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Reactor : MonoBehaviour
 {
-    public static float BlueReacEnergy;
-    public static float YellowReacEnergy;
+    //Effects 
+    public Slider BlueSlider;
+    public Slider YellowSlider;
+
+
+    public static float BlueReacEnergy = 1000;
+    public static float YellowReacEnergy = 1000;
 
     public float TempreatureChangingTime;
     public float EnergyRedusingAmount;
@@ -37,6 +43,11 @@ public class Reactor : MonoBehaviour
                 BlueReacEnergy -= EnergyRedusingAmount;
                 WeathorManager.Temperature -= EnergyRedusingAmount / EnergeToTemperatureDevider;
             }
+
+
+            //Update Effects
+            BlueSlider.value = BlueReacEnergy;
+            YellowSlider.value = YellowReacEnergy;
         }
     }
 

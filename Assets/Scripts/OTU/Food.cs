@@ -8,7 +8,6 @@ public class Food : MonoBehaviour
     void Start()
     {
         GameManager.FoodAmount++;
-        Debug.Log(GameManager.FoodAmount);
     }
 
     private void OnDestroy()

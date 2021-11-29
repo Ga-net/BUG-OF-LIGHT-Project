@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 4061617706401338262}
   - component: {fileID: 4061617706401338256}
   m_Layer: 8
-  m_Name: Yellow Light Bug 1
+  m_Name: Yellow Light Bug
   m_TagString: YellowLightBug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
   NestsLayer:
     serializedVersion: 2
     m_Bits: 4096
-  IncubatTerDetectorRadios: 500
+  IncubatTerDetectorRadios: 5000
   NearestNest: {fileID: 0}
   Offset: {x: 0, y: 5, z: 0}
   RotateAroundSpeed: 0

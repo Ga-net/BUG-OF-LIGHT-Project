@@ -90,17 +90,17 @@ public class PlayerManager : MonoBehaviour
         {
             case GameManager.Tools.Nothing: HideVacuum(); HideWeapons(); ShowDetectors();
                 break;
-            case GameManager.Tools.Vacuum: if (HasVacuum) { HideWeapons(); ShowVacuum(); HideDetectors(); }
+            case GameManager.Tools.Vacuum: if (HasVacuum) { HideWeapons(); ShowVacuum();} HideDetectors();
                 break;
-            case GameManager.Tools.Weapon: if (HasWeapons) { HideVacuum(); ShowWeapons(); HideDetectors(); }
+            case GameManager.Tools.Weapon: if (HasWeapons) { HideVacuum(); ShowWeapons();} HideDetectors();
                 break;
-            case GameManager.Tools.BlueEggTube: if (HasVacuum) { HideWeapons(); ShowVacuum(); HideDetectors(); }
+            case GameManager.Tools.BlueEggTube: if (HasVacuum) { HideWeapons(); ShowVacuum();} HideDetectors();
                 break;
-            case GameManager.Tools.YellowEggTube: if (HasVacuum) { HideWeapons(); ShowVacuum(); HideDetectors(); }
+            case GameManager.Tools.YellowEggTube: if (HasVacuum) { HideWeapons(); ShowVacuum();} HideDetectors();
                 break;
-            case GameManager.Tools.FoodTube:if (HasVacuum) { HideWeapons(); ShowVacuum(); HideDetectors(); }
+            case GameManager.Tools.FoodTube:if (HasVacuum) { HideWeapons(); ShowVacuum();} HideDetectors();
                 break;
-            default:HideVacuum(); HideWeapons(); ShowDetectors();
+            default:HideVacuum(); HideWeapons(); HideDetectors();
                 break;
         }
     }

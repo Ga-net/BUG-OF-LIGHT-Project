@@ -21,7 +21,7 @@ public class ObstaclesAlingment : MonoBehaviour
             }
             else
             {
-                Destroy(Obstacles[i].gameObject);
+                //Destroy(Obstacles[i].gameObject, 0.05f);
             }
         }
 

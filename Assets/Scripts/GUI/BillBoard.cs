@@ -47,12 +47,12 @@ public class BillBoard : MonoBehaviour
         LineRen.SetPositions(TowPints);
     }
 
-
+    public float UpOffset;
     public float UpowardMovement;
     // Floating
     void Floating()
     {
-        Vector3 NewPos = new Vector3(transform.localPosition.x,Mathf.Sin(Time.time) * UpowardMovement, transform.localPosition.z);
+        Vector3 NewPos = new Vector3(transform.localPosition.x,(Mathf.Sin(Time.time)+ UpOffset) * UpowardMovement, transform.localPosition.z);
         transform.localPosition = NewPos;
     }
 }

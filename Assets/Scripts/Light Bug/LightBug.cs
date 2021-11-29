@@ -374,6 +374,10 @@ public class LightBug : MonoBehaviour
 
         PlayerTran = GameObject.Find("FPSController NAMISIMP").transform;
         CorentEggIncubating = incubatingTime;
+
+        //For Randomness
+        CorentEggIncubating = Random.Range(incubatingTime / 3, incubatingTime);
+
     }
 
 

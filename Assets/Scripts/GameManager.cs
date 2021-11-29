@@ -198,12 +198,12 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        CorentTool = Tools.Nothing;
+        CorentTool = Tools.Weapon;
         HighLightTheSellected();
         HideAndeShowIcons();
     }
 
-    float Delay = 5;
+    float Delay = 1;
     float delay1;
     void Update()
     {
@@ -213,6 +213,7 @@ public class GameManager : MonoBehaviour
         if(delay1 <= 0)
         {
             HideAndeShowIcons();
+            HighLightTheSellected();
             delay1 = Delay;
         }
     }

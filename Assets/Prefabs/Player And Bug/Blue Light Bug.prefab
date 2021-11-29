@@ -526,7 +526,7 @@ MonoBehaviour:
   NestsLayer:
     serializedVersion: 2
     m_Bits: 4096
-  IncubatTerDetectorRadios: 500
+  IncubatTerDetectorRadios: 5000
   NearestNest: {fileID: 0}
   Offset: {x: 0, y: 5, z: 0}
   RotateAroundSpeed: 0

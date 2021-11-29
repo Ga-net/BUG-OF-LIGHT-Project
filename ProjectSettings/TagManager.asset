@@ -23,6 +23,8 @@ TagManager:
   - Weapon
   - YellowLightBug
   - PickDetector
+  - BlueReactor
+  - YellowReactor
   layers:
   - Default
   - TransparentFX

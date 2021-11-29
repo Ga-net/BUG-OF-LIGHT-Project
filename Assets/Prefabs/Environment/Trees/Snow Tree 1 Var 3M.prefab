@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8401903768983427976}
   - component: {fileID: 2262989493139991916}
   - component: {fileID: 3595835781881785457}
-  - component: {fileID: 5425416544962533804}
+  - component: {fileID: 8558509581420618676}
+  - component: {fileID: 1242813195364470847}
   m_Layer: 0
   m_Name: Snow Tree 1 Var 3M
   m_TagString: Untagged
@@ -80,8 +81,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5425416544962533804
-MeshCollider:
+--- !u!65 &8558509581420618676
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +91,19 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -28022534582465930, guid: b62534617e3e0dd45b42af4574be6d23, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.0932319, y: 30.469044, z: 1.516505}
+  m_Center: {x: 0.11144853, y: 15.23904, z: -0.03444552}
+--- !u!135 &1242813195364470847
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4639581324347868382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.75452
+  m_Center: {x: -0.39999962, y: 23.495037, z: 0.43000033}

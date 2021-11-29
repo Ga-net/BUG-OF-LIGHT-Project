@@ -111,6 +111,28 @@ public class Bullet : MonoBehaviour
     }
 
 
+    public float ReactorEnergyFill;
+    private void OnTriggerEnter(Collider other)
+    {
+        //For blue
+        if (IsBlue && other.CompareTag("BlueReactor"))
+        {
+            Reactor.BlueReacEnergy += ReactorEnergyFill;
+            //playe Charging soudn
+            Debug.Log(Reactor.BlueReacEnergy);
+        }
+
+        //For Yellow
+        if (IsYellow && other.CompareTag("YellowReactor"))
+        {
+            Reactor.YellowReacEnergy += ReactorEnergyFill;
+            //playe Charging soudn
+            Debug.Log(Reactor.YellowReacEnergy);
+        }
+
+    }
+
+
     void Setup()
     {
         PhysicMat = new PhysicMaterial();
