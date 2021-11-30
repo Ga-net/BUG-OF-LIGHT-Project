@@ -5016,7 +5016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -5091,7 +5091,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &8079165528387300223
 SphereCollider:
@@ -5202,7 +5202,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &5678708935616061478
 SphereCollider:
@@ -5278,7 +5278,7 @@ Transform:
   - {fileID: 8465321269484490251}
   - {fileID: 3795398880150352295}
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -89.98021, y: 0, z: 0}
 --- !u!1 &2186989402359338044
 GameObject:
@@ -10205,7 +10205,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6936486451397052024
 SkinnedMeshRenderer:
@@ -10592,7 +10592,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5489308841567054593
 MeshFilter:
@@ -10752,7 +10752,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8220902582432945307
 MeshFilter:
@@ -10972,7 +10972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -11091,7 +11091,7 @@ Transform:
   m_LocalScale: {x: 38.170265, y: 1, z: 37.268}
   m_Children: []
   m_Father: {fileID: 8979799848207525999}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.655}
 --- !u!65 &6460603811246382604
 BoxCollider:
@@ -11385,13 +11385,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 7773539622738184060}
+  - {fileID: 307629998495653026}
   - {fileID: 13085496124111089}
   - {fileID: 1136793890771062677}
   - {fileID: 6388990494883349828}
   - {fileID: 8894173722702780243}
   - {fileID: 1090087119359955165}
-  - {fileID: 307629998495653026}
-  - {fileID: 7773539622738184060}
   - {fileID: 1938713232722353442}
   - {fileID: 4438200571909085034}
   - {fileID: 4858028979034751247}
@@ -11442,4 +11442,6 @@ MonoBehaviour:
   BLueSpredingEffect: {fileID: 5871110317600957021, guid: f41c048dd6e1cbe40ac44c473fa608d1,
     type: 3}
   YellowSpredingEffect: {fileID: 2285048747335510948, guid: e66e8e2850ae49843bea7e5cee2a8f1b,
+    type: 3}
+  ReactorDonwSound: {fileID: 435408304748332025, guid: 0aca09e39beb70b4790db60638206231,
     type: 3}

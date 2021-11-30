@@ -31,14 +31,15 @@ public class Reactor : MonoBehaviour
     }
 
 
+    public GameObject ReactorDonwSound;
     public void SpredBlueParticleInTube()
     {
         if (BlueReacEnergy > 100)
         {
             Instantiate(BLueSpredingEffect, transform.position, transform.rotation);
-            //playe Spreding sound
+            Instantiate(ReactorDonwSound, transform.position, Quaternion.identity);
         }
-        Debug.Log("Spreding");
+        Debug.Log("Blue Spreding");
     }
 
     public void SpredYellowParticleInTube()
@@ -46,9 +47,9 @@ public class Reactor : MonoBehaviour
         if (YellowReacEnergy > 100)
         {
             Instantiate(YellowSpredingEffect, transform.position, transform.rotation);
-            //playe Spreding sound
+            Instantiate(ReactorDonwSound, transform.position, Quaternion.identity);
         }
-        Debug.Log("Spreding");
+        Debug.Log("Yellow Spreding");
     }
 
 

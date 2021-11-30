@@ -196,6 +196,18 @@ public class GameManager : MonoBehaviour
     }
 
 
+    bool MapOpen;
+    public GameObject MapCanvas;
+    void MapHideAndShow()
+    {
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            MapOpen = !MapOpen;
+            MapCanvas.SetActive(MapOpen);
+        }
+    }
+
+
     void Start()
     {
         CorentTool = Tools.Weapon;
@@ -207,6 +219,7 @@ public class GameManager : MonoBehaviour
     float delay1;
     void Update()
     {
+        MapHideAndShow();
         ToolSelection();    //This Function Work As An Item System
         //to avoid Hideing And unhiding Every frame
         delay1 -= Time.deltaTime;

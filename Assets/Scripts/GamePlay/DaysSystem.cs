@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class DaysSystem : MonoBehaviour
@@ -10,14 +11,18 @@ public class DaysSystem : MonoBehaviour
     public float DayTime;
     float cornetDay;
 
-    public int SurvivaedDays;
+    public static int SurvivaedDays;
 
     // GUI
+    public TMP_Text SurvivedDaysText;
     public Image DayBarTofill;
-    
+    public Animator Anim;
+    public GameObject NewDaySound;
+
     void NewDayEvent()
     {
-
+        Anim.SetTrigger("NewDay");
+            Instantiate(NewDaySound);
     }
 
 
@@ -27,10 +32,23 @@ public class DaysSystem : MonoBehaviour
     }
 
 
-    // Update is called once per frame
-    void Update()
+    void DayChanger()
     {
         cornetDay += Time.deltaTime;
+        if(cornetDay >= DayTime)
+        {
+            SurvivaedDays++;
+            SurvivedDaysText.text = SurvivaedDays.ToString();
+            NewDayEvent();
+            cornetDay = 0;
+        }
+    }
+
+
+
+    void Update()
+    {
+        DayChanger();
         DayBarTofill.fillAmount = cornetDay / DayTime;
     }
 }

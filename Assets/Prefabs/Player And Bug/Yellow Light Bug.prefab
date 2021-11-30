@@ -474,7 +474,7 @@ MonoBehaviour:
   RayDis: 200
   RayLayerMask:
     serializedVersion: 2
-    m_Bits: 3127
+    m_Bits: 101431
   incubatingTime: 300
   CorentEggIncubating: 70
   Egg: {fileID: 4099524262828052127, guid: d66f6b0c58c7a8b45be06f5dc2ae241f, type: 3}

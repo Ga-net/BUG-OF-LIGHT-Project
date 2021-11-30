@@ -111,6 +111,10 @@ public class Bullet : MonoBehaviour
     }
 
 
+
+    public GameObject ChargingSound;
+    public GameObject BlueReactorCargingVFX;
+    public GameObject YellowReactorCargingVFX;
     public float ReactorEnergyFill;
     private void OnTriggerEnter(Collider other)
     {
@@ -118,16 +122,18 @@ public class Bullet : MonoBehaviour
         if (IsBlue && other.CompareTag("BlueReactor"))
         {
             Reactor.BlueReacEnergy += ReactorEnergyFill;
-            //playe Charging soudn
-            Debug.Log(Reactor.BlueReacEnergy);
+            Instantiate(ChargingSound, transform.position, Quaternion.identity);
+            //Instantiate(BlueReactorCargingVFX, other.GetComponentInParent<Transform>().position,Quaternion.identity);
+            //Debug.Log(Reactor.BlueReacEnergy);
         }
 
         //For Yellow
         if (IsYellow && other.CompareTag("YellowReactor"))
         {
             Reactor.YellowReacEnergy += ReactorEnergyFill;
-            //playe Charging soudn
-            Debug.Log(Reactor.YellowReacEnergy);
+            Instantiate(ChargingSound, transform.position, Quaternion.identity);
+            //Instantiate(YellowReactorCargingVFX, other.GetComponentInParent<Transform>().position, Quaternion.identity);
+            //Debug.Log(Reactor.YellowReacEnergy);
         }
 
     }

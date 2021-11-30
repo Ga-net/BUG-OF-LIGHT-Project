@@ -131,6 +131,9 @@ MonoBehaviour:
   EnergyAmount: 5
   ThrowingForc: 500
   TubeParticleStoper: {fileID: 8992802083647143942}
+  BlueWeapon: {fileID: 0}
+  YellowWeapon: {fileID: 8847296859264439027, guid: dfadfef4a7ec8544888c9603357a358f,
+    type: 3}
   Pos5: -0.041
   Pos4: -0.03
   Pos3: -0.015

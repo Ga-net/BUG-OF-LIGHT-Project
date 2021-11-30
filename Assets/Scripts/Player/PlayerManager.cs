@@ -161,7 +161,7 @@ public class PlayerManager : MonoBehaviour
     public Animator GuiAnimator2;
 
     bool TabIsHold;
-
+    public GameObject SlideSound;
     void MoreContentSlider()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -169,6 +169,7 @@ public class PlayerManager : MonoBehaviour
             TabIsHold = !TabIsHold; 
             GuiAnimator.SetBool("TabIsHold", TabIsHold);
             GuiAnimator2.SetBool("TabIsHold", TabIsHold);
+            Instantiate(SlideSound);
         }
     }
 
