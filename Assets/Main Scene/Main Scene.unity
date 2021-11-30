@@ -36392,6 +36392,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3762570007291403861, guid: e5d410f5b6e0fb041bfb3501b40fee0c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 89.98021
+      objectReference: {fileID: 0}
     - target: {fileID: 3799164935201981050, guid: e5d410f5b6e0fb041bfb3501b40fee0c,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36481,6 +36486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465321269484490251, guid: e5d410f5b6e0fb041bfb3501b40fee0c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 89.98021
       objectReference: {fileID: 0}
     - target: {fileID: 8486456326936551085, guid: e5d410f5b6e0fb041bfb3501b40fee0c,
         type: 3}

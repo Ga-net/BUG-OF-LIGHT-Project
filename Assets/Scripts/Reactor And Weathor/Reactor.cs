@@ -19,13 +19,40 @@ public class Reactor : MonoBehaviour
     public float MaxEnergyAmount;
     public Animator ReactorAnimator;
 
+
+    public GameObject BLueSpredingEffect;
+    //public Transform BLueSpredingEffectPOS;
+    public GameObject YellowSpredingEffect;
+    //public Transform YellowSpredingEffectPOS;
+
     private void Start()
     {
         StartCoroutine(TemperatureChanger());
     }
 
 
-    IEnumerator TemperatureChanger()//start at start
+    public void SpredBlueParticleInTube()
+    {
+        if (BlueReacEnergy > 100)
+        {
+            Instantiate(BLueSpredingEffect, transform.position, transform.rotation);
+            //playe Spreding sound
+        }
+        Debug.Log("Spreding");
+    }
+
+    public void SpredYellowParticleInTube()
+    {
+        if (YellowReacEnergy > 100)
+        {
+            Instantiate(YellowSpredingEffect, transform.position, transform.rotation);
+            //playe Spreding sound
+        }
+        Debug.Log("Spreding");
+    }
+
+
+IEnumerator TemperatureChanger()//start at start
     {
 
         while (true)

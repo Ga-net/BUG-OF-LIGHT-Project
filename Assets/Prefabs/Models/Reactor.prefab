@@ -4950,13 +4950,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241301292759688486}
-  m_LocalRotation: {x: -0.7071069, y: -0.70710677, z: -0, w: 0}
+  m_LocalRotation: {x: 0.00000033717464, y: 0.0000003371747, z: -0.70710677, w: -0.7071069}
   m_LocalPosition: {x: 0.7995634, y: -0.11999893, z: 0.10241032}
   m_LocalScale: {x: 0.3749999, y: 0.37500006, z: 0.37500006}
   m_Children: []
   m_Father: {fileID: 2207246870506798703}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -360, z: 90.00001}
 --- !u!1 &653091683265446521
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,6 +5032,36 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &664735069533508642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7071556520308697379}
+  m_Layer: 13
+  m_Name: Yellow Spreding Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7071556520308697379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664735069533508642}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.06, y: 10.08, z: 12.4}
+  m_LocalScale: {x: 0.375, y: 0.37500012, z: 0.37500012}
+  m_Children: []
+  m_Father: {fileID: 8979799848207525999}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1169780361326391183
 GameObject:
   m_ObjectHideFlags: 0
@@ -5187,6 +5217,36 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.57
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1600478668563858785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2583321178219356919}
+  m_Layer: 13
+  m_Name: Blue Spreding Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2583321178219356919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600478668563858785}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.06, y: 10.08, z: -12.4}
+  m_LocalScale: {x: 0.375, y: 0.37500012, z: 0.37500012}
+  m_Children: []
+  m_Father: {fileID: 8979799848207525999}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1923520150709514939
 GameObject:
   m_ObjectHideFlags: 0
@@ -10239,13 +10299,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3598980903099471930}
-  m_LocalRotation: {x: -0.7071069, y: -0.70710677, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: -0.70710677}
   m_LocalPosition: {x: -1.74, y: -0.1, z: -0.10241127}
   m_LocalScale: {x: 0.3749999, y: 0.37500006, z: 0.37500006}
   m_Children: []
   m_Father: {fileID: 8555528184910744119}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -360, z: 90.00001}
 --- !u!1 &3799164935201981050
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,6 +11396,8 @@ Transform:
   - {fileID: 4438200571909085034}
   - {fileID: 4858028979034751247}
   - {fileID: 5088682026572740941}
+  - {fileID: 2583321178219356919}
+  - {fileID: 7071556520308697379}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11377,3 +11439,7 @@ MonoBehaviour:
   EnergeToTemperatureDevider: 5
   MaxEnergyAmount: 1000
   ReactorAnimator: {fileID: 8868732393543280020}
+  BLueSpredingEffect: {fileID: 5871110317600957021, guid: f41c048dd6e1cbe40ac44c473fa608d1,
+    type: 3}
+  YellowSpredingEffect: {fileID: 2285048747335510948, guid: e66e8e2850ae49843bea7e5cee2a8f1b,
+    type: 3}
