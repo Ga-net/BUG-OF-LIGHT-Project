@@ -116,6 +116,11 @@ public class Bullet : MonoBehaviour
     public GameObject BlueReactorCargingVFX;
     public GameObject YellowReactorCargingVFX;
     public float ReactorEnergyFill;
+
+
+    //for Mission Four
+    int MissFourBlue;
+    int MissFourYellow;
     private void OnTriggerEnter(Collider other)
     {
         //For blue
@@ -125,6 +130,14 @@ public class Bullet : MonoBehaviour
             Instantiate(ChargingSound, transform.position, Quaternion.identity);
             //Instantiate(BlueReactorCargingVFX, other.GetComponentInParent<Transform>().position,Quaternion.identity);
             //Debug.Log(Reactor.BlueReacEnergy);
+
+            //Mission Four
+            if(MissFourBlue <5)
+            {
+                MissionFour.MissionFourBlueReactor += 0.2f;
+                MissFourBlue++;
+            }
+
         }
 
         //For Yellow
@@ -134,6 +147,13 @@ public class Bullet : MonoBehaviour
             Instantiate(ChargingSound, transform.position, Quaternion.identity);
             //Instantiate(YellowReactorCargingVFX, other.GetComponentInParent<Transform>().position, Quaternion.identity);
             //Debug.Log(Reactor.YellowReacEnergy);
+
+            //mission Four
+            if(MissFourYellow <5)
+            {
+                MissionFour.MissionFourYellowReactor += 0.2f;
+                MissFourYellow++;
+            }
         }
 
     }

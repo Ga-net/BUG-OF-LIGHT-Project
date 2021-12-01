@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static int BlueEnergyTubesAmount = 5;
-    public static int YellowEnergyTubesAmount = 5;
-    public static bool HasVacuum = true;
+    public static int BlueEnergyTubesAmount;
+    public static int YellowEnergyTubesAmount;
+    public static bool HasVacuum = false;
     public static bool HasWeapons = false;
 
 
@@ -109,12 +111,14 @@ public class PlayerManager : MonoBehaviour
     // Player health
     public static float Health;
     public float Player_Health;
-    
-    //bool IsDead;
+
+    public static bool IsDead;
 
     public static void TakeDamage(float DamageToTake)
     {
         Health -= DamageToTake;
+        if (Health <= 0)
+            IsDead = true;
     }
 
     public static void TakeHeal(float HealingToTake)
@@ -145,6 +149,7 @@ public class PlayerManager : MonoBehaviour
         if(CorentHungerLevel <= 0)
         {
             //call the death Function
+            Death();
         }
     }
 
@@ -222,6 +227,59 @@ public class PlayerManager : MonoBehaviour
     }
 
 
+    //death
+    public enum DeathCose
+    {
+        Cold,
+        Heat,
+        Starvation,//Of not from
+        Light_Bugs,
+    }
+
+    public DeathCose CorentDeathCose;
+
+    void ChangeDeathCose()
+    {
+        if(Health <= 0 || CorentHungerLevel <=0)
+        {
+            if (Health <= 0 && WeathorManager.CorentWeathorState == WeathorManager.WeathorState.Freezing)
+                CorentDeathCose = DeathCose.Cold;
+            else if (Health <= 0 && WeathorManager.CorentWeathorState == WeathorManager.WeathorState.Heating)
+                CorentDeathCose = DeathCose.Heat;
+            else if (CorentHungerLevel <= 0)
+                CorentDeathCose = DeathCose.Starvation;
+            else
+                CorentDeathCose = DeathCose.Light_Bugs;
+        }
+    }
+
+
+    public GameObject[] DeathOBJToHide;
+    public FirstPersonController Controlle_r;
+    public GameObject DeatCanvas;
+    void Death()
+    {
+        foreach (var item in DeathOBJToHide)
+        {
+            item.SetActive(false);
+        }
+        Controlle_r.enabled = false;
+        DeatCanvas.SetActive(true);
+    }
+
+
+
+    public void TryAgainOrExit()
+    {
+        if (IsDead && Input.GetKeyDown(KeyCode.Return))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (IsDead && Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
+    }
+
+
+
 
     private void Start()
     {
@@ -240,6 +298,15 @@ public class PlayerManager : MonoBehaviour
         UpdateTubesCountUI();
         MoreContentSlider();
         UpdateBars();
+
+        //death  
+        ChangeDeathCose();
+        if (IsDead)
+        {
+            Death();
+            TryAgainOrExit();
+            gameObject.GetComponentInChildren<Rigidbody>().AddExplosionForce(200, gameObject.GetComponentInChildren<Rigidbody>().transform.position, 100);
+        }
     }
 
 }
