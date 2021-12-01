@@ -16,6 +16,7 @@ public class DaysSystem : MonoBehaviour
     // GUI
     public TMP_Text SurvivedDaysText;
     public Image DayBarTofill;
+    public TMP_Text SurvivedDaysinPlayerstats;
     public Animator Anim;
     public GameObject NewDaySound;
 
@@ -29,6 +30,7 @@ public class DaysSystem : MonoBehaviour
     private void Start()
     {
         DayBarTofill = GameObject.Find("Day time fill Fill NAMISIMP").GetComponent<Image>();
+        SurvivedDaysinPlayerstats = GameObject.Find("Survived Dayes NAMISIMP").GetComponent<TMP_Text>();
     }
 
 
@@ -39,6 +41,7 @@ public class DaysSystem : MonoBehaviour
         {
             SurvivaedDays++;
             SurvivedDaysText.text = SurvivaedDays.ToString();
+            SurvivedDaysinPlayerstats.text = SurvivaedDays.ToString();
             NewDayEvent();
             cornetDay = 0;
         }

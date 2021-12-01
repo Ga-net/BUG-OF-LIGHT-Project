@@ -58,18 +58,32 @@ public class PickingStuff : MonoBehaviour
 
     void PickWeapon(GameObject Weapon)
     {
+        if(MissionTow.CanTakeTheWeapon)
+        {
             Destroy(Weapon);
             PlayerManager.HasWeapons = true;
             GameManager.CorentTool = GameManager.Tools.Weapon;
+
+        } else if(!MissionTow.CanTakeTheWeapon)
+        {
+            Instantiate(ErrorSound, transform.position, Quaternion.identity);
+        }
     }
 
 
-
+    public GameObject ErrorSound;
     void PickVacuum(GameObject Vacuum)
     {
+        if(MissionOne.CanTakeTheVacuum)
+        {
             Destroy(Vacuum);
             PlayerManager.HasVacuum = true;
             GameManager.CorentTool = GameManager.Tools.FoodTube;
+        }
+        else if(!MissionOne.CanTakeTheVacuum)
+        {
+            Instantiate(ErrorSound, transform.position, Quaternion.identity);
+        }
     }
 
 
@@ -82,11 +96,18 @@ public class PickingStuff : MonoBehaviour
     {
         Destroy(Food);
         Instantiate(EatingSound, transform.position, Quaternion.identity);
-        Invoke("AddHungerDelay", EatingClip.length);
+        Invoke("AddHungerDelay", EatingClip.length/2);
     }
+
+    /*for mission one */int MissionOneApples; 
     void AddHungerDelay()
     {
         PlayerManager.CorentHungerLevel += HungerAddAmount;
+        if(MissionOneApples<=5)
+        {
+            MissionOne.MissionOneApplesCount++;
+            MissionOneApples++;
+        }
     }
 
 

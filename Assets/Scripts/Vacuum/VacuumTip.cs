@@ -272,12 +272,25 @@ public class VacuumTip : MonoBehaviour
 
 
 
-
+    //for Mission 2
+    bool BlueX;
+    bool YellowX;
     private void LateUpdate()
     {
 
-        
-        
+        if(!BlueX)
+        {
+            MissionTow.MiisonTowBlueEggCollecting = BlueEggs.Count;
+            if (BlueEggs.Count >= 5)
+                BlueX = true;
+        }
+
+        if (!YellowX)
+        {
+            MissionTow.MiisonTowYellowEggCollecting = YellowEggs.Count;
+            if (YellowEggs.Count >= 5)
+                YellowX = true;
+        }
     }
 
 

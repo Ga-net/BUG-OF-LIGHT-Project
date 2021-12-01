@@ -99,7 +99,7 @@ public class LightBug : MonoBehaviour
     //public float FallingDeathVelocity;
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground") && IsDead)
+        if ((collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Incubator")) && IsDead)
         {
             if(!GetDestroyed)
             {
@@ -181,6 +181,8 @@ public class LightBug : MonoBehaviour
                         NearestNest = Nests[i].transform;
                     }
                 }
+                if (transform.position.y < -4000)
+                    Destroy(gameObject);
             }
 
             //Go to the neares Nest
