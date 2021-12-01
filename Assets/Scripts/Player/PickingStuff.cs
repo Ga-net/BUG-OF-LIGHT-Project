@@ -58,13 +58,13 @@ public class PickingStuff : MonoBehaviour
 
     void PickWeapon(GameObject Weapon)
     {
-        if(MissionTow.CanTakeTheWeapon)
+        if(MissionThree.CanTakeTheWeapon)
         {
             Destroy(Weapon);
             PlayerManager.HasWeapons = true;
             GameManager.CorentTool = GameManager.Tools.Weapon;
 
-        } else if(!MissionTow.CanTakeTheWeapon)
+        } else if(!MissionThree.CanTakeTheWeapon)
         {
             Instantiate(ErrorSound, transform.position, Quaternion.identity);
         }
@@ -112,19 +112,30 @@ public class PickingStuff : MonoBehaviour
 
 
 
-
+    /*for mission three */int b, y;
     void PickEnergyTube(GameObject Tube)
     {
         if(Tube.CompareTag("BlueEnergyTube"))
         {
             Destroy(Tube);
             PlayerManager.BlueEnergyTubesAmount++;
+
+            if(b <5)
+            {
+                MissionThree.MiisonThreeBlueEnergyMaking++;
+                b++;
+            }
         }
 
         if(Tube.CompareTag("YellowEnergyTube"))
         {
             Destroy(Tube);
             PlayerManager.YellowEnergyTubesAmount++;
+            if (y < 5)
+            {
+                MissionThree.MiisonThreeYellowEnergyMaking++;
+                y++;
+            }
         }
     }
 
