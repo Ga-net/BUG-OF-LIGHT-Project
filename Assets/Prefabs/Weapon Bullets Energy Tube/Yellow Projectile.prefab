@@ -98,14 +98,12 @@ MonoBehaviour:
   - {fileID: 435408304748332025, guid: a636b76cc0f5c0f4385085fa040e2e7d, type: 3}
   - {fileID: 435408304748332025, guid: 287b209131486dc469bba995eff6dd10, type: 3}
   - {fileID: 435408304748332025, guid: 70440dcef362e4e4eb915a4d0a4f9444, type: 3}
-  ReactorPos: {fileID: 8979799848207525999, guid: e5d410f5b6e0fb041bfb3501b40fee0c,
-    type: 3}
   ChargingSound: {fileID: 435408304748332025, guid: a797705a7e17a154fb658a9db97235a0,
     type: 3}
   BlueReactorCargingVFX: {fileID: 0}
   YellowReactorCargingVFX: {fileID: 8101744889138534713, guid: 1f964857c016fc84298d9c9b843115fe,
     type: 3}
-  ReactorEnergyFill: 10
+  ReactorEnergyFill: 50
 --- !u!114 &3185029687834752737
 MonoBehaviour:
   m_ObjectHideFlags: 0

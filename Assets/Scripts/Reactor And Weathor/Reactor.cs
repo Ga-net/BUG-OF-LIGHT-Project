@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class Reactor : MonoBehaviour
 {
     //Effects 
@@ -10,8 +10,8 @@ public class Reactor : MonoBehaviour
     public Slider YellowSlider;
 
 
-    public static float BlueReacEnergy = 1000;
-    public static float YellowReacEnergy = 1000;
+    public static float BlueReacEnergy = 0;
+    public static float YellowReacEnergy = 0;
 
     public float TempreatureChangingTime;
     public float EnergyRedusingAmount;
@@ -24,6 +24,10 @@ public class Reactor : MonoBehaviour
     //public Transform BLueSpredingEffectPOS;
     public GameObject YellowSpredingEffect;
     //public Transform YellowSpredingEffectPOS;
+
+    public TMP_Text BlueReactorText;
+    public TMP_Text YellowReactorText;
+
 
     private void Start()
     {
@@ -76,6 +80,8 @@ IEnumerator TemperatureChanger()//start at start
             //Update Effects
             BlueSlider.value = BlueReacEnergy;
             YellowSlider.value = YellowReacEnergy;
+            BlueReactorText.text = BlueReacEnergy.ToString()/*.Insert(BlueReacEnergy.ToString().Length, "/").Insert(BlueReacEnergy.ToString().Length + 1, MaxEnergyAmount.ToString())*/;
+            YellowReactorText.text = YellowReacEnergy.ToString()/*.Insert(YellowReacEnergy.ToString().Length, "/").Insert(YellowReacEnergy.ToString().Length + 1, MaxEnergyAmount.ToString())*/;
         }
     }
 

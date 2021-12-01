@@ -58,7 +58,10 @@ public class VacuumTip : MonoBehaviour
             other.GetComponent<Rigidbody>().isKinematic = true;
             other.transform.localScale /= 2;
             other.transform.position = BlueEggSlots[BlueEggs.Count].position;
+            Debug.Log("set to False");
+            Debug.Log(other.name);
             BlueEggs.Add(other.gameObject);
+            other.gameObject.SetActive(false);
             PlayTakingSound();
         }
 
@@ -68,7 +71,10 @@ public class VacuumTip : MonoBehaviour
             other.GetComponent<Rigidbody>().isKinematic = true;
             other.transform.localScale /= 2;
             other.transform.position = YellowEggSlots[YellowEggs.Count].position;
+            Debug.Log("set to False");
+            Debug.Log(other.name);
             YellowEggs.Add(other.gameObject);
+            other.gameObject.SetActive(false);
             PlayTakingSound();
         }
 
@@ -80,7 +86,10 @@ public class VacuumTip : MonoBehaviour
             other.GetComponent<Rigidbody>().isKinematic = true;
             other.transform.localScale /= 2;
             other.transform.position = FoodSlots[Food.Count].position;
+            Debug.Log("set to False");
+            Debug.Log(other.name);
             Food.Add(other.gameObject);
+            other.gameObject.SetActive(false);
             PlayTakingSound();
         }
 
@@ -156,6 +165,7 @@ public class VacuumTip : MonoBehaviour
             BlueEggs[BlueEggs.Count - 1].GetComponent<Rigidbody>().velocity = (BlueEggs[BlueEggs.Count - 1].transform.forward + (PlayerVelocity.velocity *0.05f)) * ThrowingForce;
             BlueEggs[BlueEggs.Count - 1].GetComponent<Rigidbody>().isKinematic = false;
             BlueEggs[BlueEggs.Count - 1].transform.localScale *= 2;
+            BlueEggs[BlueEggs.Count - 1].SetActive(true);
             BlueEggs.RemoveAt(BlueEggs.Count - 1);
             PlayThrowingSound();
         }
@@ -171,6 +181,7 @@ public class VacuumTip : MonoBehaviour
             YellowEggs[YellowEggs.Count - 1].GetComponent<Rigidbody>().velocity = (YellowEggs[YellowEggs.Count - 1].transform.forward + (PlayerVelocity.velocity * 0.05f)) *ThrowingForce;
             YellowEggs[YellowEggs.Count - 1].GetComponent<Rigidbody>().isKinematic = false;
             YellowEggs[YellowEggs.Count - 1].transform.localScale *= 2;
+            YellowEggs[YellowEggs.Count - 1].SetActive(true);
             YellowEggs.RemoveAt(YellowEggs.Count - 1);
             PlayThrowingSound();
         }
@@ -186,6 +197,7 @@ public class VacuumTip : MonoBehaviour
             Food[Food.Count - 1].GetComponent<Rigidbody>().velocity = (Food[Food.Count - 1].transform.forward + (PlayerVelocity.velocity * 0.09f)) *ThrowingForce;
             Food[Food.Count - 1].GetComponent<Rigidbody>().isKinematic = false;
             Food[Food.Count - 1].transform.localScale *= 2;
+            Food[Food.Count - 1].SetActive(true);
             Food.RemoveAt(Food.Count - 1);
             PlayThrowingSound();
         }
@@ -318,22 +330,23 @@ public class VacuumTip : MonoBehaviour
 
     public void UnHideAll()
     {
+        //Useless now
 
-        foreach (var item in BlueEggs)
-        {
-            if(item != null)
-            item.SetActive(true);
-        }
-        foreach (var item in YellowEggs)
-        {
-            if (item != null)
-                item.SetActive(true);
-        }
-        foreach (var item in Food)
-        {
-            if (item != null)
-                item.SetActive(true);
-        }
+        //foreach (var item in BlueEggs)
+        //{
+        //    if(item != null)
+        //    item.SetActive(true);
+        //}
+        //foreach (var item in YellowEggs)
+        //{
+        //    if (item != null)
+        //        item.SetActive(true);
+        //}
+        //foreach (var item in Food)
+        //{
+        //    if (item != null)
+        //        item.SetActive(true);
+        //}
     }
     
 }

@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static int BlueEnergyTubesAmount = 5;
     public static int YellowEnergyTubesAmount = 5;
-    public static bool HasVacuum = false;
+    public static bool HasVacuum = true;
     public static bool HasWeapons = false;
 
 

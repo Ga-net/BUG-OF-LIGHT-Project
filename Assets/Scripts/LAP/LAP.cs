@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LAP : MonoBehaviour
 {
@@ -73,6 +74,9 @@ public class LAP : MonoBehaviour
 
     public float CorentTube;
 
+
+    public TMP_Text LapText;
+
     private void Start()
     {
         StartCoroutine(CookingTheTube());
@@ -82,6 +86,8 @@ public class LAP : MonoBehaviour
     {
         if (CorentTube >= EnergyTubePrice)
             MakeATube();
+
+        LapText.text = LapEnergyAmount.ToString();
     }
 
 

@@ -15,7 +15,7 @@ public class Egg : MonoBehaviour
     [SerializeField]
     float IncubateTimer;
 
-    enum EggPlace
+    public enum EggPlace
     {
         inIncubator,
         inLap,
@@ -23,7 +23,7 @@ public class Egg : MonoBehaviour
         inVoid
     }
 
-    EggPlace CorentPlace;
+    public EggPlace CorentPlace;
 
     public GameObject BOLPrefab;
 
@@ -35,10 +35,10 @@ public class Egg : MonoBehaviour
     void Start()
     {
         CorentPlace = EggPlace.inVoid;
-        StartCoroutine(ReducEnergy());
-        StartCoroutine(IncubatesTime());
+        //StartCoroutine(ReducEnergy());
+        //StartCoroutine(IncubatesTime());
         KnowTheLaps();
-        StartCoroutine(TakingEnergyTimer());
+        //StartCoroutine(TakingEnergyTimer());
     }
 
     void Update()
@@ -50,6 +50,13 @@ public class Egg : MonoBehaviour
 
         if ((IncubateTimer <= 0 || EnergyAmount <= 0) && IsDestroing == false)
             DestroyEGG();
+
+        //To redus energy without Coroutine
+        ReducEnergyInVoid();
+
+        //no coroutine
+        IncubatesTime_F();
+        TakingEnergyTimer_F();
 
         //used On the comunocation section;
         ChangeIsTaking();
@@ -83,31 +90,62 @@ public class Egg : MonoBehaviour
         }
     }
 
-    IEnumerator ReducEnergy()
+
+    float ReducingTimer = 1;
+    void ReducEnergyInVoid()
     {
-        while(true)
+        ReducingTimer -= Time.deltaTime;
+        if(ReducingTimer <=0)
         {
-            yield return new WaitForSeconds(1);
-            if(CorentPlace == EggPlace.inVoid)
+            if (CorentPlace == EggPlace.inVoid)
                 EnergyAmount -= EnergyRedeucingAmount;
-            if (EnergyAmount < 0)
-                EnergyAmount = 0;
+            ReducingTimer = 1;
         }
     }
 
-    IEnumerator IncubatesTime()
+
+    //IEnumerator ReducEnergy()
+    //{
+    //    while(true)
+    //    {
+    //        yield return new WaitForSeconds(1);
+    //        if(CorentPlace == EggPlace.inVoid)
+    //            EnergyAmount -= EnergyRedeucingAmount;
+    //        if (EnergyAmount < 0)
+    //            EnergyAmount = 0;
+    //    }
+    //}
+
+    float IncubatesTime_Num = 1;
+    void IncubatesTime_F()
     {
-        while(true)
+        IncubatesTime_Num -= Time.deltaTime;
+        if(IncubatesTime_Num <=0)
         {
-            yield return new WaitForSeconds(1);
+
             if (!(CorentPlace == EggPlace.inTube))
                 IncubateTimer--;
             if (IncubateTimer < 0)
                 IncubateTimer = 0;
-            //Debug.Log(IncubateTimer);
-            //Debug.Log(CorentPlace);
+
+            IncubatesTime_Num = 1;
         }
     }
+
+
+    //IEnumerator IncubatesTime()
+    //{
+    //    while(true)
+    //    {
+    //        yield return new WaitForSeconds(1);
+    //        if (!(CorentPlace == EggPlace.inTube))
+    //            IncubateTimer--;
+    //        if (IncubateTimer < 0)
+    //            IncubateTimer = 0;
+    //        //Debug.Log(IncubateTimer);
+    //        //Debug.Log(CorentPlace);
+    //    }
+    //}
 
     public void DestroyEGG()
     {
@@ -176,12 +214,13 @@ public class Egg : MonoBehaviour
     }
 
 
-    IEnumerator TakingEnergyTimer()//in Start
+    float TakingEnergyTimer_Num = 1;
+    void TakingEnergyTimer_F()
     {
-        while (true)
+        TakingEnergyTimer_Num -= Time.deltaTime;
+        if(TakingEnergyTimer_Num <= 0)
         {
-            yield return new WaitForSeconds(1);
-            if(isTaking && IsBlue)
+            if (isTaking && IsBlue)
             {
                 EnergyAmount -= TakingEnergyAmount;
                 BlueLap.addEnergToLap(TakingEnergyAmount);
@@ -191,8 +230,29 @@ public class Egg : MonoBehaviour
                 EnergyAmount -= TakingEnergyAmount;
                 YellowLap.addEnergToLap(TakingEnergyAmount);
             }
+
+            TakingEnergyTimer_Num = 1;
         }
     }
+
+
+    //IEnumerator TakingEnergyTimer()//in Start
+    //{
+    //    while (true)
+    //    {
+    //        yield return new WaitForSeconds(1);
+    //        if(isTaking && IsBlue)
+    //        {
+    //            EnergyAmount -= TakingEnergyAmount;
+    //            BlueLap.addEnergToLap(TakingEnergyAmount);
+    //        }
+    //        if (isTaking && IsYellow)
+    //        {
+    //            EnergyAmount -= TakingEnergyAmount;
+    //            YellowLap.addEnergToLap(TakingEnergyAmount);
+    //        }
+    //    }
+    //}
 
 
     public void ThrowItAway()
@@ -200,6 +260,8 @@ public class Egg : MonoBehaviour
         gameObject.GetComponent<Rigidbody>().AddExplosionForce(Random.Range(250,500), transform.position + new Vector3(Random.Range(0, 0.1f), -0.5f, Random.Range(0, 0.1f)), Random.Range(30, 50));
         Debug.Log("Did I get Throwed");
     }
+
+
 
 
     //added Stuf
