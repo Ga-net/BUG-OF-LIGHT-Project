@@ -210,7 +210,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        CorentTool = Tools.Weapon;
+        CorentTool = Tools.Nothing;
         HighLightTheSellected();
         HideAndeShowIcons();
     }

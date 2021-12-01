@@ -10,8 +10,8 @@ public class Reactor : MonoBehaviour
     public Slider YellowSlider;
 
 
-    public static float BlueReacEnergy = 0;
-    public static float YellowReacEnergy = 0;
+    public static float BlueReacEnergy = 1000;
+    public static float YellowReacEnergy = 1000;
 
     public float TempreatureChangingTime;
     public float EnergyRedusingAmount;
